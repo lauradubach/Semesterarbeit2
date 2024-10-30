@@ -15,11 +15,17 @@
 - [Planen](#planen)
   - [Zeitplan](#zeitplan)
     - [Meilensteine](#meilensteine)
+      - [Einreichungsformular](#einreichungsformular)
+      - [Entscheidungsmatrix](#entscheidungsmatrix)
+      - [Realisieren](#realisieren)
+      - [Testen](#testen)
+      - [Präsentation](#präsentation)
+      - [Abgabe](#abgabe)
 - [Entscheiden](#entscheiden)
   - [Produkte vergleichen](#produkte-vergleichen)
     - [Vor -und Nachteile](#vor--und-nachteile)
   - [Kostenanalyse](#kostenanalyse)
-  - [Entscheidungsmatrix](#entscheidungsmatrix)
+  - [Entscheidungsmatrix](#entscheidungsmatrix-1)
 
 # Informieren
 
@@ -38,6 +44,12 @@
 
 ## Zeitplan
 ### Meilensteine
+#### Einreichungsformular
+#### Entscheidungsmatrix
+#### Realisieren
+#### Testen
+#### Präsentation
+#### Abgabe
 
 # Entscheiden
 
