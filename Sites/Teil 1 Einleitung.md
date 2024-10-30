@@ -11,18 +11,11 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
     - [Programmiersprache](#programmiersprache)
   - [Werkzeuge](#werkzeuge)
   - [Methode IPERKA](#methode-iperka)
-  - [Seusag](#seusag)
-    - [Systemgrenzen](#systemgrenzen)
-      - [Technologische Systemgrenzen](#technologische-systemgrenzen)
-      - [Organisatorische Systemgrenzen](#organisatorische-systemgrenzen)
-      - [Regulatorische Anforderungen](#regulatorische-anforderungen)
 - [Projektorganisation](#projektorganisation)
   - [Beteiligte Personen](#beteiligte-personen)
     - [Kanditatin](#kanditatin)
     - [Dozenten](#dozenten)
 - [Datensicherung](#datensicherung)
-- [Zeitplan](#zeitplan)
-  - [Meilensteine](#meilensteine)
 - [Besprechungsprotokoll](#besprechungsprotokoll)
   - [Zwischengespräch 1](#zwischengespräch-1)
     - [Besprechungsnotiz](#besprechungsnotiz)
@@ -36,7 +29,9 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 
 | Version | Datum | Autor | Bemerkung | 
 | ------- | ------ | ---- | --------- |
-| 1.0 | 30.10.2024 | Laura Dubach | Dokument erstellt und den Aufbau gestartet. |
+| 1.0 | 24.10.2024 | Laura Dubach | Zeitplan und Notion erstellen |
+| 1.1 | 30.10.2024 | Laura Dubach | Dokument erstellt und den Aufbau gestartet. |
+| 1.2 |  | Laura Dubach | |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
