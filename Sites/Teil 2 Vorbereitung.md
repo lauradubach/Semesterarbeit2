@@ -18,8 +18,8 @@
     - [Automatische Lizenzzuweisung](#automatische-lizenzzuweisung)
     - [Automatisierte Gruppenzuweisung](#automatisierte-gruppenzuweisung)
     - [Zusammenfassung der Automatisierungsmöglichkeiten](#zusammenfassung-der-automatisierungsmöglichkeiten)
-  - [Ist Situation](#ist-situation)
-  - [Soll Situation](#soll-situation)
+  - [Ist Zustand](#ist-zustand)
+  - [Soll Zustand](#soll-zustand)
   - [Seusag](#seusag)
     - [Systemgrenzen](#systemgrenzen)
       - [Technologische Systemgrenzen](#technologische-systemgrenzen)
@@ -121,13 +121,48 @@ Durch diese Automatisierungen wird der manuelle Aufwand deutlich reduziert, und 
 
 > (Chat GPT) [Quelle](https://chatgpt.com/share/6724ab57-b13c-800e-bfc9-da621fae374f)
 
-## Ist Situation
-## Soll Situation
+## Ist Zustand
+Der aktuelle Onboarding-Prozess ist manuell und weist folgende Probleme auf:
+- Zeitaufwendig: Manuelle Abläufe wie Profilanlegung und Zugangserstellung führen zu Verzögerungen.
+- Fehleranfälligkeit: Häufige manuelle Eingabefehler können Sicherheitsrisiken erhöhen.
+- Mangelnde Skalierbarkeit: Der Aufwand steigt linear mit der Anzahl der Neueinstellungen.
+
+## Soll Zustand
+Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
+- Automatisierung: Durch Python-Skripte und Camunda-Workflows wird der Prozess erheblich beschleunigt.
+- Standardisierung: Ein BPMN-Workflow gewährleistet einheitliche Abläufe.
+- Fehlerreduktion: Automatisierte Eingaben und Prüfungen senken das Fehlerrisiko.
+- Zentrale Steuerung: Camunda ermöglicht die Prozessüberwachung und schnellere Fehlerbehebung.
+- Skalierbarkeit: Die Lösung ist flexibel und für steigende Mitarbeiterzahlen geeignet.
+
+![IST-und Soll Zustand](<../Pictures/Ist- und Soll Zustand.png>)
+
 ## Seusag
+
+![Seusag](../Pictures/Seusag.png)
+
 ### Systemgrenzen
 #### Technologische Systemgrenzen
+- Programmiersprache: Die Geschäftslogik wird ausschließlich in Python umgesetzt; andere Sprachen oder Frameworks sind ausgeschlossen.
+- Automatisierungsplattform: Nur Camunda wird für die Prozessautomatisierung und BPMN-Modellierung genutzt, alternative Tools sind nicht vorgesehen.
+- Kommunikationsschnittstellen: Die Integration zwischen Python und Camunda erfolgt über definierte APIs, ohne zusätzliche externe Schnittstellentechnologien.
+- Datenverarbeitung: Alle Daten werden innerhalb des Camunda-Workflows und des Python-Skripts verarbeitet. Externe Datenbanken oder Speicherlösungen sind nicht eingeplant.
+- Testumgebung: Die Lösung ist ein funktionierender Prototyp und daher technologisch auf eine begrenzte Skalierbarkeit ausgelegt.
+- Produktive Umgebung: Das System ist nicht für eine vollwertige Produktion vorgesehen, sondern als Testumgebung zur Prüfung der Machbarkeit und zur Ermittlung potenzieller Effizienzsteigerungen. Dies auch, da Firmendaten nicht Preisgegeben werden können.
+
 #### Organisatorische Systemgrenzen
+- Anwendungsbereich: Der Prototyp deckt nur den Onboarding-Prozess neuer Mitarbeiter ab andere HR-Prozesse sind ausgeschlossen.
+- Projektumfang:  Die Semesterarbeit beschränkt den Projektumfang auf die verfügbaren Ressourcen und schließt eine vollständige Integration in die Unternehmens-IT aus.
+- Vergleich: Die Effizienz und die Fehlerreduktion des Prototyps werden nur im Vergleich zu den aktuell manuellen Prozessen des Unternehmens evaluiert.
+- Produktivitätsanalyse: Es wird keine langfristige Produktivitätsanalyse durchgeführt, die über den Testzeitraum des Projekts hinausgeht.
+- Compliance-Prüfung: Die Lösung berücksichtigt nur allgemeine Datenschutzanforderungen, ohne vollständige Compliance-Prüfungen. Es werden keine besonderen Maßnahmen zur Einhaltung branchenspezifischer Standards implementiert, da dies den Projektumfang überschreiten würde.
+- Projektmanagement: Die Methode wird beschrieben und umgesetzt
+- Unterstützung: Zur Unterstützung des Projektes werden die Fachdozenten und die Modulunterlagen verwendet
+
 #### Regulatorische Anforderungen
+- Abschluss: Das Enddatum dieses Projektes ist verbindlich. Nach dem Abschluss des Projektes wird keine Nachbearbeitung geplant
+- Meetings: Es weden Zwischengespräche mit dem Fachdozenten gehalten und diese werden dokumentiert. Meetings werden mit dem Fachdozenten geplant und angepasst
+- Hilfsmittel: Alle Hilfsmittel für die Umsetzung des Projektes sind vorhanden
 
 # Planen
 
