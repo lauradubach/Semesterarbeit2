@@ -18,8 +18,9 @@
     - [Automatische Lizenzzuweisung](#automatische-lizenzzuweisung)
     - [Automatisierte Gruppenzuweisung](#automatisierte-gruppenzuweisung)
     - [Zusammenfassung der Automatisierungsmöglichkeiten](#zusammenfassung-der-automatisierungsmöglichkeiten)
-  - [Ist Zustand](#ist-zustand)
-  - [Soll Zustand](#soll-zustand)
+  - [IST- und SOLL Zustand](#ist--und-soll-zustand)
+    - [IST Zustand](#ist-zustand)
+    - [SOLL Zustand](#soll-zustand)
   - [Seusag](#seusag)
     - [Systemgrenzen](#systemgrenzen)
       - [Technologische Systemgrenzen](#technologische-systemgrenzen)
@@ -121,21 +122,23 @@ Durch diese Automatisierungen wird der manuelle Aufwand deutlich reduziert, und 
 
 > (Chat GPT) [Quelle](https://chatgpt.com/share/6724ab57-b13c-800e-bfc9-da621fae374f)
 
-## Ist Zustand
+## IST- und SOLL Zustand
+
+![IST-und Soll Zustand](<../Pictures/Ist- und Soll Zustand.png>)
+
+### IST Zustand
 Der aktuelle Onboarding-Prozess ist manuell und weist folgende Probleme auf:
 - Zeitaufwendig: Manuelle Abläufe wie Profilanlegung und Zugangserstellung führen zu Verzögerungen.
 - Fehleranfälligkeit: Häufige manuelle Eingabefehler können Sicherheitsrisiken erhöhen.
 - Mangelnde Skalierbarkeit: Der Aufwand steigt linear mit der Anzahl der Neueinstellungen.
 
-## Soll Zustand
+### SOLL Zustand
 Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 - Automatisierung: Durch Python-Skripte und Camunda-Workflows wird der Prozess erheblich beschleunigt.
 - Standardisierung: Ein BPMN-Workflow gewährleistet einheitliche Abläufe.
 - Fehlerreduktion: Automatisierte Eingaben und Prüfungen senken das Fehlerrisiko.
 - Zentrale Steuerung: Camunda ermöglicht die Prozessüberwachung und schnellere Fehlerbehebung.
 - Skalierbarkeit: Die Lösung ist flexibel und für steigende Mitarbeiterzahlen geeignet.
-
-![IST-und Soll Zustand](<../Pictures/Ist- und Soll Zustand.png>)
 
 ## Seusag
 
