@@ -168,7 +168,6 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 - Hilfsmittel: Alle Hilfsmittel für die Umsetzung des Projektes sind vorhanden
 
 # Planen
-
 ## Zeitplan
 ### Meilensteine
 #### Einreichungsformular
