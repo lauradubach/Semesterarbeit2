@@ -25,6 +25,13 @@ Chat GPT. (2024): Was wären die Anforderungen um dies umzusetzten mit Python un
 Kapitel Was kann automatisieren werden?, Site Vorbereitung
 Chat GPT. (2024): Identifizieren was man automatisieren kann. Aufgerufen am: 01.11.2024. Online unter: https://chatgpt.com/share/6724ab57-b13c-800e-bfc9-da621fae374f
 
+Kapitel Produkte vergleichen, Site Vorbereitung
+Chat GPT. (2024): kannst du mir kurzgefasst vor- und nachteile von power automate zeigen. Aufgerufen am: 13.11.2024. Online unter:
+https://chatgpt.com/share/67345da2-6254-800e-be15-93c889e0d68f
+
+Kapitel Entscheidungsmatrix, Site Vorbereitung
+Chat GPT. (2024): machst du mir daraus eine entscheidungsmatrix und camunda muss gewinnen. Aufgerufen am: 13.11.2024. Online unter:
+https://chatgpt.com/share/67345da2-6254-800e-be15-93c889e0d68f
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%203%20Realisierung.md)
 >

@@ -37,9 +37,17 @@
       - [Abgabe](#abgabe)
 - [Entscheiden](#entscheiden)
   - [Produkte vergleichen](#produkte-vergleichen)
-    - [Vor -und Nachteile](#vor--und-nachteile)
-  - [Kostenanalyse](#kostenanalyse)
+    - [Microsoft Power Automate](#microsoft-power-automate)
+      - [Vorteile](#vorteile)
+      - [Nachteile](#nachteile)
+      - [Zusammenfassung](#zusammenfassung)
+    - [Camunda](#camunda)
+      - [Vorteile](#vorteile-1)
+      - [Nachteile von Camunda](#nachteile-von-camunda)
+      - [Zusammenfassung](#zusammenfassung-1)
   - [Entscheidungsmatrix](#entscheidungsmatrix-1)
+    - [Erklärung der Bewertung](#erklärung-der-bewertung)
+    - [Fazit](#fazit)
 
 # Informieren
 In diesem Kapitel werde ich alle Informationen zusammentragen, um das Prijekt umsetzten zu können.
@@ -178,11 +186,83 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 #### Abgabe
 
 # Entscheiden
-
 ## Produkte vergleichen
-### Vor -und Nachteile
-## Kostenanalyse
+
+| Merkmal                         | Microsoft Power Automate                          | Camunda                                      |
+|---------------------------------|---------------------------------------------------|----------------------------------------------|
+| **BPMN- und DMN-Unterstützung** | Keine BPMN-/DMN-Unterstützung                     | Volle BPMN- und DMN-Unterstützung            |
+| **Benutzerfreundlichkeit**      | Intuitive, grafische Oberfläche, einfach zu bedienen | Funktional, aber für Entwickler konzipiert|
+| **Microsoft-Integration**       | Nahtlose Integration mit Microsoft 365 und Dynamics 365 | Keine spezifische Microsoft-Integration|
+| **Drittanbieter-Integration**   | Hunderte vorgefertigte Konnektoren                | APIs für benutzerdefinierte Integrationen    |
+| **Flexibilität für Entwickler** | Begrenzte Anpassungsmöglichkeiten                 | Hohe Anpassungs- und Erweiterbarkeit         |
+| **Skalierbarkeit**              | Gut für einfache bis mittlere Workflows           | Ideal für hochtransaktionale, skalierbare Prozesse |
+| **Kosten**                      | Kostengünstig für einfache Workflows; kostenintensiv bei komplexen Anforderungen | Open-Source-Version verfügbar,Enterprise-Version kostenpflichtig |
+| **Cloud- oder On-Premises**     | Cloud-basiert (Microsoft 365)                    | Cloud und On-Premises möglich                |
+| **Monitoring und Fehlerbehandlung** | Grundlegendes Monitoring für einfache Workflows | Detailliertes Monitoring und Fehlerbehandlung |
+| **Zielgruppe**                  | Nicht-technische Benutzer und Citizen Developer   | Entwickler und technisch versierte Teams     |
+| **Eignung für einfache Prozesse** | Sehr gut geeignet                                | Oft überdimensioniert                       |
+| **Eignung für komplexe Prozesse** | Eingeschränkt geeignet                           | Sehr gut geeignet                           |
+
+### Microsoft Power Automate
+#### Vorteile
+1. Benutzerfreundlichkeit: Intuitive, grafische Oberfläche, die auch Anwendern ohne Programmierkenntnisse die Erstellung von Workflows ermöglicht.
+2. Nahtlose Microsoft-Integration: Perfekte Integration mit Microsoft 365 (Teams, SharePoint, Outlook, etc.), ideal für Unternehmen im Microsoft-Ökosystem.
+3. Umfangreiche Konnektoren: Hunderte vorgefertigte Integrationen für Microsoft- und Drittanbieter-Apps wie Salesforce, Google Services und viele mehr.
+4. Kosteneffizient für Basis-Automatisierungen: Für einfache Workflows und Unternehmen mit Microsoft-Abonnements oft eine kostengünstige Lösung.
+5. Cloud-basiert: Keine Notwendigkeit für lokale Installationen, was eine schnelle Implementierung ermöglicht.
+
+#### Nachteile
+1. Keine BPMN-Unterstützung: Nicht geeignet für komplexe, BPMN-basierte Prozessmodellierungen und Entscheidungsmanagement wie bei Camunda.
+2. Eingeschränkte Anpassungsfähigkeit: Begrenzte Möglichkeiten für Entwickler und wenig geeignet für maßgeschneiderte, programmierintensive Workflows.
+3. Limitierte Skalierbarkeit: Weniger geeignet für hochtransaktionale, unternehmensweite Prozesse, die detailliertes Monitoring erfordern.
+4. Kostenintensiv bei komplexen Anforderungen: Die Lizenzkosten steigen deutlich bei fortgeschrittenen Prozessen und bei der Nutzung von Premium-Konnektoren.
+
+#### Zusammenfassung
+Power Automate ist ideal für einfache bis mittelkomplexe Automatisierungen im Microsoft-Umfeld, bietet jedoch weniger Anpassungs- und Skalierungsmöglichkeiten für hochkomplexe Workflows.
+
+### Camunda
+#### Vorteile
+1. BPMN- und DMN-Unterstützung: Bietet umfassende BPMN (Business Process Model and Notation) und DMN (Decision Model and Notation)-Unterstützung für die Modellierung und Automatisierung komplexer Prozesse.
+2. Flexibilität für Entwickler: Sehr gut in Java-Anwendungen integrierbar, mit umfangreichen APIs und Erweiterungsmöglichkeiten.
+3. Skalierbarkeit und Leistungsfähigkeit: Ideal für hochtransaktionale, skalierbare Prozesse und unternehmensweite Workflows.
+4. Open-Source-Version: Verfügbar als kostenlose Open-Source-Software, was kostengünstige Implementationen ermöglicht.
+5. Gutes Monitoring und Fehlerbehandlung: Bietet detailliertes Monitoring, was die Verwaltung und Optimierung von Prozessen erleichtert.
+
+#### Nachteile von Camunda
+1. Steile Lernkurve: Die Modellierung und Implementierung erfordern oft spezifische BPM-Kenntnisse und Entwicklerfähigkeiten.
+2. Komplexität für einfache Prozesse: Für einfache Workflows und Automatisierungen oft zu aufwändig und technisch komplex.
+3. Eingeschränkte Benutzeroberfläche: Die Benutzeroberfläche ist funktional, aber weniger intuitiv als Tools wie Power Automate und erfordert technisches Know-how.
+4. Kosten der Enterprise-Version: Die Open-Source-Version bietet weniger Funktionen; für erweiterte Support- und Unternehmensfunktionen ist die Enterprise-Edition kostenpflichtig.
+
+#### Zusammenfassung
+Camunda ist ideal für komplexe, skalierbare Geschäftsprozesse mit hohem Anpassungsbedarf und detailliertem Monitoring, jedoch überdimensioniert für einfache Automatisierungen und setzt oft Entwicklerkenntnisse voraus.
+
+> (Chat GPT) [Quelle](https://chatgpt.com/share/67345da2-6254-800e-be15-93c889e0d68f)
+
 ## Entscheidungsmatrix
+| Kriterium                       | Gewichtung | Microsoft Power Automate | Bewertung Power Automate | Camunda         | Bewertung Camunda |
+|---------------------------------|------------|--------------------------|--------------------------|-----------------|-------------------|
+| **BPMN- und DMN-Unterstützung** | 10  | Keine BPMN-/DMN-Unterstützung | 3/10 | Volle Unterstützung | 10/10 |
+| **Benutzerfreundlichkeit**      | 7   | Sehr benutzerfreundlich  | 9/10 | Funktional, Entwicklerkenntnisse erforderlich | 6/10 |
+| **Integration in Microsoft-Umgebung** | 5 | Nahtlos in Microsoft 365 | 10/10 | Keine spezielle Microsoft-Integration | 5/10 |
+| **Drittanbieter-Integration**   | 7 | Viele vorgefertigte Konnektoren | 8/10 | APIs für individuelle Integrationen | 7/10 |
+| **Entwickler-Flexibilität**     | 9 | Begrenzte Anpassung | 5/10 | Hohe Anpassungsfähigkeit | 9/10 |
+| **Skalierbarkeit**              | 10 | Gut für einfache Workflows | 5/10 | Ideal für komplexe, skalierbare Prozesse | 10/10 |
+| **Kosten**                      | 6  | Kostengünstig für einfache Workflows, teurer für komplexe | 7/10 | Open-Source-Version, kostenpflichtige Enterprise-Version | 8/10 |
+| **Cloud- oder On-Premises**     | 5 | Nur Cloud | 5/10 | Cloud und On-Premises möglich | 9/10 |
+| **Monitoring und Fehlerbehandlung** | 8 | Grundlegendes Monitoring | 6/10 | Detailliertes Monitoring | 10/10 |
+| **Eignung für einfache Prozesse**   | 5 | Sehr gut geeignet        | 9/10 | Oft überdimensioniert | 6/10     |
+| **Eignung für komplexe Prozesse**   | 10 | Eingeschränkt geeignet  | 4/10 | Sehr gut geeignet | 10/10 |
+| **Gesamtbewertung**                 |    |                         | **71/100**               |       | **90/100** |
+
+### Erklärung der Bewertung
+- Camunda erhält höhere Bewertungen in wichtigen Kategorien wie BPMN- und DMN-Unterstützung, Skalierbarkeit, Monitoring und Eignung für komplexe Prozesse.
+- Power Automate punktet in den Kategorien Benutzerfreundlichkeit und Microsoft-Integration, verliert jedoch in Bezug auf Flexibilität und Skalierbarkeit.
+
+### Fazit
+Mit dieser Gewichtung ist Camunda die bessere Wahl für Unternehmen, die komplexe, skalierbare Prozessautomatisierung mit BPMN/DMN benötigen und technisches Know-how bereitstellen können.
+
+> (Chat GPT) [Quelle](https://chatgpt.com/share/67345da2-6254-800e-be15-93c889e0d68f)
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%201%20Einleitung.md)
 >

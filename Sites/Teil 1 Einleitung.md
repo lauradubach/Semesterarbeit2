@@ -27,12 +27,13 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 
 # Versionenverzeichniss
 
-| Version | Datum | Autor | Bemerkung | 
-| ------- | ------ | ---- | --------- |
+| Version | Datum  | Autor | Bemerkung | 
+| ------- | ------ | ----  | --------- |
 | 1.0 | 24.10.2024 | Laura Dubach | Zeitplan und Notion erstellen |
 | 1.1 | 30.10.2024 | Laura Dubach | Dokument erstellt und den Aufbau gestartet. |
 | 1.2 | 01.11.2024 | Laura Dubach | Start dokumentation Kapitel informieren  |
 | 1.3 | 06.11.2024 | Laura Dubach | Seusag und Ist- und Soll Zustand dokumentieren |
+| 1.4 | 13.11.2024 | Laura Dubach | Tool vergleich & Entscheidungsmatrix |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
