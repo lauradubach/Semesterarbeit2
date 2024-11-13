@@ -43,7 +43,7 @@
       - [Zusammenfassung](#zusammenfassung)
     - [Camunda](#camunda)
       - [Vorteile](#vorteile-1)
-      - [Nachteile von Camunda](#nachteile-von-camunda)
+      - [Nachteile](#nachteile-1)
       - [Zusammenfassung](#zusammenfassung-1)
   - [Entscheidungsmatrix](#entscheidungsmatrix-1)
     - [Erklärung der Bewertung](#erklärung-der-bewertung)
@@ -179,11 +179,22 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 ## Zeitplan
 ### Meilensteine
 #### Einreichungsformular
+Das Einreichungsformular ist der erste formelle Schritt zur Dokumentation des Projekts. Hier werden alle wichtigen Informationen zum Projekt gesammelt, zum Beispiel Zielsetzung, Projektbeschreib, Risiken, Mittel und Methoden. Dieses Formular dient als Grundlage zur Projektgenehmigung und bietet den Projektbeteiligten eine klare Übersicht über die Ziele und Anforderungen.
+
 #### Entscheidungsmatrix
+Die Entscheidungsmatrix hilft bei der Auswahl der besten Vorgehensweise oder Lösung für das Projekt. Verschiedene Kriterien werden mit Gewichtungen versehen und die möglichen Alternativen danach bewertet. Diese Matrix bietet eine objektive Entscheidungsgrundlage und unterstützt dabei, eine durchdachte Wahl zu treffen.
+
 #### Realisieren
+In der Realisierungsphase wird das Projekt in die Praxis umgesetzt. Hier beginnen die eigentlichen Arbeiten. In dieser Phase wird das Projekt schrittweise aufgebaut, und die vorherige Planung wird in konkrete Resultate umgesetzt.
+
 #### Testen
+In der Testphase wird das Projekt auf Funktionalität, Qualität und Zuverlässigkeit überprüft. Ziel ist es, sicherzustellen, dass das Ergebnis den Anforderungen entspricht und einwandfrei funktioniert. Eventuelle Fehler oder Mängel werden identifiziert und behoben. Diese Phase ist entscheidend, um sicherzustellen, dass das Endprodukt den Erwartungen und Standards gerecht wird.
+
 #### Präsentation
+Bei der Präsentation werden die Ergebnisse des Projekts vor einer Zielgruppe vorgestellt. In der Präsentation werden Ziele, Prozesse und Ergebnisse des Projekts anschaulich präsentiert. Dies ist eine Gelegenheit, das Projekt und seine Erfolge zu demonstrieren und den Mehrwert für das Unternehmen oder den Kunden hervorzuheben.
+
 #### Abgabe
+Die Abgabe ist der formelle Abschluss des Projekts, bei dem alle Projektergebnisse und die Dokumentation übergeben werden. Dazu gehören unter anderem technische Dokumente, Berichte, Testprotokolle und gegebenenfalls das fertige Produkt. Mit der Abgabe wird das Projekt offiziell abgeschlossen und an den Auftraggeber oder die Zielgruppe übergeben.
 
 # Entscheiden
 ## Produkte vergleichen
@@ -228,7 +239,7 @@ Power Automate ist ideal für einfache bis mittelkomplexe Automatisierungen im M
 4. Open-Source-Version: Verfügbar als kostenlose Open-Source-Software, was kostengünstige Implementationen ermöglicht.
 5. Gutes Monitoring und Fehlerbehandlung: Bietet detailliertes Monitoring, was die Verwaltung und Optimierung von Prozessen erleichtert.
 
-#### Nachteile von Camunda
+#### Nachteile
 1. Steile Lernkurve: Die Modellierung und Implementierung erfordern oft spezifische BPM-Kenntnisse und Entwicklerfähigkeiten.
 2. Komplexität für einfache Prozesse: Für einfache Workflows und Automatisierungen oft zu aufwändig und technisch komplex.
 3. Eingeschränkte Benutzeroberfläche: Die Benutzeroberfläche ist funktional, aber weniger intuitiv als Tools wie Power Automate und erfordert technisches Know-how.
