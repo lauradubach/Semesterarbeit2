@@ -1,4 +1,5 @@
 # Teil 4 Abschluss
+Der letzte Teil der Arbeit. Hier wird die ganze Auswertung des Projektes beschrieben. Eine Selbstreflexion und die ganzen Anhänge und Quellen sind hier dokumentiert.
 
 - [Teil 4 Abschluss](#teil-4-abschluss)
 - [Auswerten](#auswerten)
@@ -9,6 +10,8 @@
 
 
 # Auswerten
+Im Kapitel Auswerten wird der Abschluss des Projektes beschrieben. Es wird Zusammengefasst, Reflektiert und Analysiert. Auch alle Quellen die verwendet wurden werden angehängt.
+
 ## Zusammenfassung
 ## Analyse der Effizienssteigerung
 ## Reflexion

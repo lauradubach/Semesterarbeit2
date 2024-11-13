@@ -1,4 +1,5 @@
 # Teil 2 Vorbereitung
+Nun gehen wir ins Thema Vorbereitung über. Wie es der Name schon ankündigt, wird hier das ganze Projekt Vorbereitet. Die Ausgangslage und Anforderungen werden beschrieben, auch was das Ziel des Projektes wird aufgezeitg. Die Planung wird gemacht und es werden Entscheidungen getroffen um das Projekt mit den Optimalen Tools umzusetzten.
 
 - [Teil 2 Vorbereitung](#teil-2-vorbereitung)
 - [Informieren](#informieren)
@@ -50,7 +51,7 @@
     - [Fazit](#fazit)
 
 # Informieren
-In diesem Kapitel werde ich alle Informationen zusammentragen, um das Prijekt umsetzten zu können.
+In diesem Kapitel werde ich alle Informationen zusammentragen, um das Projekt umsetzten zu können.
 
 ## Analyse des aktuellen Onboarding Prozess
 Das aktuelle Onboarding-Verfahren für neue Benutzer in der Azure-Umgebung ist stark manuell geprägt, was Zeit und Ressourcen beansprucht und potenzielle Fehlerquellen mit sich bringt. Der Ablauf gestaltet sich wie folgt:
@@ -87,17 +88,14 @@ Um das Onboarding in Azure effizienter und automatisiert mit Python und Camunda 
    - Authentifizierung und Berechtigungen: Python-Skripte benötigen ein sicheres Authentifizierungsverfahren, um auf Azure-Ressourcen zuzugreifen.
 
 ### Beispielhafte Architektur:
-
 - Camunda steuert den gesamten Workflow und sendet für jeden Prozessschritt REST-Anfragen an die Python-Skripte.
 - Python-Skripte führen die API-Aufrufe an Azure AD aus und geben die Ergebnisse an Camunda zurück.
 
 ### Zusammenfassung der Anforderungen
-
 - API-Kenntnisse: Azure AD API für Python und Camunda REST API.
 - Python-Kompetenzen: Fähigkeit zur Entwicklung von Skripten für Benutzerverwaltung, Lizenz- und Gruppenmanagement.
 - Prozessmodellierung: BPMN in Camunda für den Aufbau und die Steuerung des Onboardings.
 - Fehlerbehandlung und Sicherheitsmaßnahmen in Python und Camunda, um Compliance sicherzustellen.
-
 
 Mit dieser Architektur lassen sich manuelle Aufgaben reduzieren, Fehler vermeiden und ein konsistenter und dokumentierter Onboarding-Prozess etablieren.
 
@@ -119,7 +117,6 @@ Um das Onboarding in Azure mit Python und Camunda effizienter zu gestalten, kön
    - Vorteil: Sicherstellung eines einheitlichen und schnellen Zugriffs auf die richtigen Ressourcen.
 
 ### Zusammenfassung der Automatisierungsmöglichkeiten
-
 Durch die Automatisierung dieser Schritte wird der gesamte Onboarding-Prozess beschleunigt und zuverlässiger gestaltet. Hier die wichtigsten Automatisierungsbereiche im Überblick:
 
 1. Benutzererstellung in Azure AD
@@ -153,6 +150,7 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 ![Seusag](../Pictures/Seusag.png)
 
 ### Systemgrenzen
+
 #### Technologische Systemgrenzen
 - Programmiersprache: Die Geschäftslogik wird ausschließlich in Python umgesetzt; andere Sprachen oder Frameworks sind ausgeschlossen.
 - Automatisierungsplattform: Nur Camunda wird für die Prozessautomatisierung und BPMN-Modellierung genutzt, alternative Tools sind nicht vorgesehen.
@@ -176,7 +174,10 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 - Hilfsmittel: Alle Hilfsmittel für die Umsetzung des Projektes sind vorhanden
 
 # Planen
+Hier werde ich das ganze Projekt planen. Es wird ein Zeitplan erstellt, wann welche Tätigkeiten fällig sind und die Meilensteine genau beschrieben.
+
 ## Zeitplan
+
 ### Meilensteine
 #### Einreichungsformular
 Das Einreichungsformular ist der erste formelle Schritt zur Dokumentation des Projekts. Hier werden alle wichtigen Informationen zum Projekt gesammelt, zum Beispiel Zielsetzung, Projektbeschreib, Risiken, Mittel und Methoden. Dieses Formular dient als Grundlage zur Projektgenehmigung und bietet den Projektbeteiligten eine klare Übersicht über die Ziele und Anforderungen.
@@ -197,6 +198,8 @@ Bei der Präsentation werden die Ergebnisse des Projekts vor einer Zielgruppe vo
 Die Abgabe ist der formelle Abschluss des Projekts, bei dem alle Projektergebnisse und die Dokumentation übergeben werden. Dazu gehören unter anderem technische Dokumente, Berichte, Testprotokolle und gegebenenfalls das fertige Produkt. Mit der Abgabe wird das Projekt offiziell abgeschlossen und an den Auftraggeber oder die Zielgruppe übergeben.
 
 # Entscheiden
+Im Kapitel Entscheiden werden die Produkte die zur Auswahl stehen verglichen. Damit es Übersichtlich bleibt werden nur zwei Tools, welche wir im Unterricht angetroffen haben für den Vergleich verwendet. Dann gibt es noch eine Entscheidunsmatrix um das Gewinnertool herauszuheben.
+
 ## Produkte vergleichen
 
 | Merkmal                         | Microsoft Power Automate                          | Camunda                                      |

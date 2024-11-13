@@ -1,5 +1,5 @@
 # Teil 1 Einleitung
-In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hintergrund und die Relevanz des Themas. Sie definiert das Ziel der der Arbeit und formuliert die zentralen Fragen. Zudem gibt die Einleitung einen kurzen Überblick über den Aufbau der Arbeit, um eine klare Orientierung zu bieten.
+In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hintergrund und die Relevanz des Themas. Sie definiert das Ziel der Arbeit und formuliert die zentralen Fragen. Zudem gibt die Einleitung einen kurzen Überblick über den Aufbau der Arbeit, um eine klare Orientierung zu bieten.
 
 - [Teil 1 Einleitung](#teil-1-einleitung)
 - [Versionenverzeichniss](#versionenverzeichniss)
@@ -75,7 +75,8 @@ Das Ergebnis dieser Arbeit soll eine wiederverwendbare und skalierbare Lösung s
 - PowerPoint
 
 ## Methode IPERKA
-Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können.  
+Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können. IPERKA habe ich gewählt, da ich schon gute Erfahrungen in verschiedenen Projekten damit gemacht habe. Ich fühle mich Sicher damit zu arbeiten, damit war es für mich die beste Projektmethode für dies Semesterarbeit.
+
 > (Bexio 2020) [Quelle](https://www.bexio.com/de-CH/blog/view/iperka-methode)
 
 ![IPERKA](../Pictures/IPERKA.png)
