@@ -34,6 +34,7 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 1.2 | 01.11.2024 | Laura Dubach | Start dokumentation Kapitel informieren  |
 | 1.3 | 06.11.2024 | Laura Dubach | Seusag und Ist- und Soll Zustand dokumentieren |
 | 1.4 | 13.11.2024 | Laura Dubach | Tool vergleich & Entscheidungsmatrix |
+| 1.5 | 14.11.2024 | Laura Dubach | Implemetierungsplan |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter

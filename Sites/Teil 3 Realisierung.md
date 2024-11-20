@@ -19,6 +19,12 @@ Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, w
 Nun wird die Realisierung beschrieben. Zuerst wird ein Plan erstellt, wie genau Implementiert wird und danach wird umgesetzt. Eine Fallbacksolution wird ebenfalls beschrieben, imfalle das etwas schief geht.
 
 ## Implementierungsplan
+Hier wird grob dargestellt, wie in diesem Projekt vorgegangen wird.
+
+![Implementierungsplan](../Pictures/Implementierungsplan.png)
+
+Der Implementierungsplan für den automatisierten Onboarding-Prozess zeigt die sieben Hauptarbeiten die ausgeführt werden. Jeder dieser Arbeiten ist sher wichtig für das Gesamtprodukt und keines davon kann weggelassen werden.
+
 ## Entwicklung Python Skript
 ## Modellierung in Camunda
 ## Projekt Umsetzung
