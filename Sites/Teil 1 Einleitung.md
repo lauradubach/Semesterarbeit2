@@ -35,6 +35,7 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 1.3 | 06.11.2024 | Laura Dubach | Seusag und Ist- und Soll Zustand dokumentieren |
 | 1.4 | 13.11.2024 | Laura Dubach | Tool vergleich & Entscheidungsmatrix |
 | 1.5 | 14.11.2024 | Laura Dubach | Implemetierungsplan |
+| 1.6 | 27.11.2024 | Laura Dubach | Besprechungsnotiz schreiben |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
@@ -97,7 +98,7 @@ E-Mail: laura.dubach@itnetx.ch
 ### Dozenten
 
 ```
-Philipp Rohr
+Rohr Philipp
 Funktion: Fachdozent
 Github: phrohr
 E-Mail: philipp.rohr@tbz.ch
@@ -117,8 +118,19 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem On
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
+| 1 | 22.11.2024 | 18:15 | Philipp Rohr, Corrado Parisi, Laura Dubach |
 
 ### Besprechungsnotiz
+
+Wir haben uns über einen Teams Call getroffen. Ich hatte 2 Fragen zu meinem Projekt. Die erste war, ob ich den Aufbau von meiner 1ten Arbeit übernehmen darf. Philipp meinte, dass genau das auch das Ziel ist und wenn er vorher nichts bemängelt hat, ich das so machen darf udn auch soll. Das Ziel ist es ja auch, dass wir eine perfekte Vorlage für unsere Arbeiten haben und so den Aufwand sparen können.
+
+Danach wollte ich, dass er sich mein Seusag anschaut, da ich mir unsicher war, ob dies so gewünscht wird. Er hat mir das folgende Änderungsvorschläge gegeben:
+
+- Der Punkt "Hilfsmittel" ist zu allgemein ich sollte ein andere Wort verwenden.
+- Was nicht im Projekt integriert ist, soll am besten ausserhalb der bubble gesetzt werden, sonst ist es zu verwirrend.
+- Die einzelnen Punkte  weisen momentan noch keine verbindung auf. Dies sollte ich noch anpassen.
+
+Das Gespräch war gut und sehr informiativ. All meine Fragen konnten beantwortet werden, so kann ich nun weiter an meiner Arbeit schreiben.
 
 ## Zwischengespräch 2
 
