@@ -25,8 +25,8 @@ Nun gehen wir ins Thema Vorbereitung über. Wie es der Name schon ankündigt, wi
   - [Seusag](#seusag)
     - [Systemgrenzen](#systemgrenzen)
       - [Technologische Systemgrenzen](#technologische-systemgrenzen)
+      - [Funktionale Systemgrenzen](#funktionale-systemgrenzen)
       - [Organisatorische Systemgrenzen](#organisatorische-systemgrenzen)
-      - [Regulatorische Anforderungen](#regulatorische-anforderungen)
 - [Planen](#planen)
   - [Zeitplan](#zeitplan)
     - [Meilensteine](#meilensteine)
@@ -49,6 +49,8 @@ Nun gehen wir ins Thema Vorbereitung über. Wie es der Name schon ankündigt, wi
   - [Entscheidungsmatrix](#entscheidungsmatrix-1)
     - [Erklärung der Bewertung](#erklärung-der-bewertung)
     - [Fazit](#fazit)
+  - [Wieso Azure Cloud?](#wieso-azure-cloud)
+  - [Wieso Python?](#wieso-python)
 
 # Informieren
 In diesem Kapitel werde ich alle Informationen zusammentragen, um das Projekt umsetzten zu können.
@@ -152,26 +154,22 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 ### Systemgrenzen
 
 #### Technologische Systemgrenzen
-- Programmiersprache: Die Geschäftslogik wird ausschließlich in Python umgesetzt; andere Sprachen oder Frameworks sind ausgeschlossen.
-- Automatisierungsplattform: Nur Camunda wird für die Prozessautomatisierung und BPMN-Modellierung genutzt, alternative Tools sind nicht vorgesehen.
-- Kommunikationsschnittstellen: Die Integration zwischen Python und Camunda erfolgt über definierte APIs, ohne zusätzliche externe Schnittstellentechnologien.
-- Datenverarbeitung: Alle Daten werden innerhalb des Camunda-Workflows und des Python-Skripts verarbeitet. Externe Datenbanken oder Speicherlösungen sind nicht eingeplant.
-- Testumgebung: Die Lösung ist ein funktionierender Prototyp und daher technologisch auf eine begrenzte Skalierbarkeit ausgelegt.
-- Produktive Umgebung: Das System ist nicht für eine vollwertige Produktion vorgesehen, sondern als Testumgebung zur Prüfung der Machbarkeit und zur Ermittlung potenzieller Effizienzsteigerungen. Dies auch, da Firmendaten nicht Preisgegeben werden können.
+- Python: Die Geschäftslogik wird ausschließlich in Python umgesetzt; andere Sprachen oder Frameworks sind ausgeschlossen.
+- Camunda: Nur Camunda wird für die Prozessautomatisierung und BPMN-Modellierung genutzt, alternative Tools sind nicht vorgesehen.
+- Administrationstools: Es werden verschiedene Tools für die Umsetzung verwendet, wie zum Beispiel Visual Studio code oder Pycharm. Diese sind in den Mittel und Methoden fetsgelegt.
+- Azure Cloud: Der Prozess wird in der Azure Cloud umgesetzt, da wir dies in der Firma verwenden. 
+
+
+#### Funktionale Systemgrenzen
+- User Offboardings/User changes: Der Prototyp deckt nur den Onboarding-Prozess neuer Mitarbeiter ab andere HR-Prozesse sind ausgeschlossen.
+- Firmendaten: Es werden keine Firmendaten verwendet, um den Datenschutz zu gewährleisten.
+- Berechtigungskonzept: In diesem Projekt wird kein Konzept erstellt, es wird sich an die vorhandenen vorgaben der Firma gehalten.
+
 
 #### Organisatorische Systemgrenzen
-- Anwendungsbereich: Der Prototyp deckt nur den Onboarding-Prozess neuer Mitarbeiter ab andere HR-Prozesse sind ausgeschlossen.
-- Projektumfang:  Die Semesterarbeit beschränkt den Projektumfang auf die verfügbaren Ressourcen und schließt eine vollständige Integration in die Unternehmens-IT aus.
-- Vergleich: Die Effizienz und die Fehlerreduktion des Prototyps werden nur im Vergleich zu den aktuell manuellen Prozessen des Unternehmens evaluiert.
-- Produktivitätsanalyse: Es wird keine langfristige Produktivitätsanalyse durchgeführt, die über den Testzeitraum des Projekts hinausgeht.
-- Compliance-Prüfung: Die Lösung berücksichtigt nur allgemeine Datenschutzanforderungen, ohne vollständige Compliance-Prüfungen. Es werden keine besonderen Maßnahmen zur Einhaltung branchenspezifischer Standards implementiert, da dies den Projektumfang überschreiten würde.
-- Projektmanagement: Die Methode wird beschrieben und umgesetzt
-- Unterstützung: Zur Unterstützung des Projektes werden die Fachdozenten und die Modulunterlagen verwendet
-
-#### Regulatorische Anforderungen
-- Abschluss: Das Enddatum dieses Projektes ist verbindlich. Nach dem Abschluss des Projektes wird keine Nachbearbeitung geplant
+- Projektmanagement: Als Methode wird IPERKA verwendet. Es werden keine anderen Methoden in diesem Projekt umgesetzt.
 - Meetings: Es weden Zwischengespräche mit dem Fachdozenten gehalten und diese werden dokumentiert. Meetings werden mit dem Fachdozenten geplant und angepasst
-- Hilfsmittel: Alle Hilfsmittel für die Umsetzung des Projektes sind vorhanden
+- Abschluss: Das Enddatum dieses Projektes ist verbindlich. Nach dem Abschluss des Projektes wird keine Nachbearbeitung geplant
 
 # Planen
 Hier werde ich das ganze Projekt planen. Es wird ein Zeitplan erstellt, wann welche Tätigkeiten fällig sind und die Meilensteine genau beschrieben.
@@ -198,7 +196,7 @@ Bei der Präsentation werden die Ergebnisse des Projekts vor einer Zielgruppe vo
 Die Abgabe ist der formelle Abschluss des Projekts, bei dem alle Projektergebnisse und die Dokumentation übergeben werden. Dazu gehören unter anderem technische Dokumente, Berichte, Testprotokolle und gegebenenfalls das fertige Produkt. Mit der Abgabe wird das Projekt offiziell abgeschlossen und an den Auftraggeber oder die Zielgruppe übergeben.
 
 # Entscheiden
-Im Kapitel Entscheiden werden die Produkte die zur Auswahl stehen verglichen. Damit es Übersichtlich bleibt werden nur zwei Tools, welche wir im Unterricht angetroffen haben für den Vergleich verwendet. Dann gibt es noch eine Entscheidunsmatrix um das Gewinnertool herauszuheben.
+Im Kapitel Entscheiden werden die Produkte die zur Auswahl stehen verglichen. Damit es Übersichtlich bleibt werden nur zwei Tools, welche wir im Unterricht angetroffen haben für den Vergleich verwendet. Dann gibt es noch eine Entscheidunsmatrix um das Gewinnertool herauszuheben. Zusätzlich wird beschrieben, wieso ich mit Azure Cloud und mit Python arbeite.
 
 ## Produkte vergleichen
 
@@ -277,6 +275,12 @@ Camunda ist ideal für komplexe, skalierbare Geschäftsprozesse mit hohem Anpass
 Mit dieser Gewichtung ist Camunda die bessere Wahl für Unternehmen, die komplexe, skalierbare Prozessautomatisierung mit BPMN/DMN benötigen und technisches Know-how bereitstellen können.
 
 > (Chat GPT) [Quelle](https://chatgpt.com/share/67345da2-6254-800e-be15-93c889e0d68f)
+
+## Wieso Azure Cloud?
+Ich verwende die Azure Cloud, da sie in unserer Firma als Standardlösung eingesetzt wird. Sie bietet uns eine zuverlässige, skalierbare Plattform für unsere geschäftlichen Anforderungen und ermöglicht die Integration moderner Technologien. Durch die zentrale Nutzung in der Firma profitieren wir von einer nahtlosen Zusammenarbeit und einer einheitlichen Infrastruktur, was unsere Effizienz und Produktivität deutlich steigert.
+
+## Wieso Python?
+Ich verwende Python, da wir diese Programmiersprache in der Schule gelernt und intensiv behandelt haben. Python ist leicht verständlich und vielseitig einsetzbar, was sie ideal für den Einstieg in die Programmierung macht. Durch den Unterricht konnte ich praktische Erfahrung sammeln und Projekte umsetzen, die mein Verständnis für die Sprache und deren Anwendungsmöglichkeiten vertieft haben.
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%201%20Einleitung.md)
 >
