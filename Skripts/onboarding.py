@@ -1,4 +1,4 @@
-import json
+import csv
 import requests
 from msal import ConfidentialClientApplication
 
@@ -46,28 +46,70 @@ def create_user(token, user_data):
     try:
         response = requests.post(f"{GRAPH_API_URL}/users", headers=headers, json=body)
         if response.status_code == 201:
-            print(f"Benutzer {user_data['displayName']} erfolgreich erstellt.")
+            user_id = response.json()["id"]
+            print(f"Benutzer {user_data['displayName']} erfolgreich erstellt. ID: {user_id}")
+            return user_id
         else:
             print(f"Fehler beim Erstellen des Benutzers: {response.status_code} - {response.text}")
+            return None
     except Exception as e:
         print(f"Fehler bei der Anfrage: {e}")
+        return None
+
+def assign_user_to_groups(token, user_id, group_ids):
+    """Weist einen Benutzer einer oder mehreren Gruppen zu."""
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+    }
+
+    for group_id in group_ids:
+        try:
+            url = f"{GRAPH_API_URL}/groups/{group_id}/members/$ref"
+            body = {
+                "@odata.id": f"{GRAPH_API_URL}/directoryObjects/{user_id}"
+            }
+            response = requests.post(url, headers=headers, json=body)
+            if response.status_code == 204:
+                print(f"Benutzer erfolgreich der Gruppe {group_id} hinzugefügt.")
+            else:
+                print(f"Fehler beim Hinzufügen des Benutzers zu Gruppe {group_id}: {response.status_code} - {response.text}")
+        except Exception as e:
+            print(f"Fehler bei der Gruppenanfrage: {e}")
+
+def load_users_from_csv(file_path):
+    """Lädt die Benutzerinformationen aus einer CSV-Datei."""
+    users = []
+    try:
+        with open(file_path, mode="r", encoding="utf-8") as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                group_ids = row["groupIds"].split(";")  # Gruppenzuweisungen durch Semikolon getrennt
+                users.append({
+                    "displayName": row["displayName"],
+                    "mailNickname": row["mailNickname"],
+                    "userPrincipalName": row["userPrincipalName"],
+                    "password": row["password"],
+                    "groupIds": group_ids
+                })
+        return users
+    except FileNotFoundError:
+        print(f"Die Datei {file_path} wurde nicht gefunden.")
+        return []
+    except KeyError as e:
+        print(f"Fehlende Spalte in der CSV-Datei: {e}")
+        return []
 
 def main():
-    # Beispiel-Mitarbeiterdaten
-    users = [
-        {
-            "displayName": "Joya Dubach",
-            "mailNickname": "joya.dubach",
-            "userPrincipalName": "joya.dubach@itnetx",
-            "password": "7qbSqVs2tCkk",
-        },
-        {
-            "displayName": "Anna Schmidt",
-            "mailNickname": "anna.schmidt",
-            "userPrincipalName": "anna.schmidt@itnetx",
-            "password": "UW6udkBycJed",
-        },
-    ]
+    # Pfad zur CSV-Datei
+    csv_file_path = "users.csv"
+
+    print("Lese Benutzerdaten aus CSV-Datei...")
+    users = load_users_from_csv(csv_file_path)
+
+    if not users:
+        print("Keine Benutzerdaten gefunden. Prozess abgebrochen.")
+        return
 
     print("Hole Access Token...")
     token = get_access_token()
@@ -78,7 +120,11 @@ def main():
 
     for user in users:
         print(f"Erstelle Benutzer: {user['displayName']}...")
-        create_user(token, user)
+        user_id = create_user(token, user)
+
+        if user_id:
+            print(f"Weise Benutzer {user['displayName']} Gruppen zu...")
+            assign_user_to_groups(token, user_id, user["groupIds"])
 
     print("Onboarding abgeschlossen.")
 
