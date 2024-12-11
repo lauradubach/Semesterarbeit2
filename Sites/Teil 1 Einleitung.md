@@ -37,6 +37,7 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 1.5 | 14.11.2024 | Laura Dubach | Implemetierungsplan |
 | 1.6 | 27.11.2024 | Laura Dubach | Besprechungsnotiz schreiben |
 | 1.7 | 03.12.2024 | Laura Dubach | Start Python Skript |
+| 1.8 | 11.12.2024 | Laura Dubach | Seusag überarbeiten |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
