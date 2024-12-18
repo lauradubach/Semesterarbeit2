@@ -1,5 +1,5 @@
 # Teil 2 Vorbereitung
-Nun gehen wir ins Thema Vorbereitung über. Wie es der Name schon ankündigt, wird hier das ganze Projekt Vorbereitet. Die Ausgangslage und Anforderungen werden beschrieben, auch was das Ziel des Projektes wird aufgezeitg. Die Planung wird gemacht und es werden Entscheidungen getroffen um das Projekt mit den Optimalen Tools umzusetzten.
+Nun gehen wir ins Thema Vorbereitung über. Wie es der Name schon ankündigt, wird hier das ganze Projekt Vorbereitet. Die Ausgangslage und Anforderungen werden beschrieben, auch was das Ziel des Projektes wird aufgezeigt. Die Planung wird gemacht und es werden Entscheidungen getroffen um das Projekt mit den Optimalen Tools umzusetzten.
 
 - [Teil 2 Vorbereitung](#teil-2-vorbereitung)
 - [Informieren](#informieren)
@@ -175,6 +175,7 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 Hier werde ich das ganze Projekt planen. Es wird ein Zeitplan erstellt, wann welche Tätigkeiten fällig sind und die Meilensteine genau beschrieben.
 
 ## Zeitplan
+![Zeitplan](../Pictures/Zeitplan.png)
 
 ### Meilensteine
 #### Einreichungsformular

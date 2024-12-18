@@ -25,8 +25,92 @@ Hier wird grob dargestellt, wie in diesem Projekt vorgegangen wird.
 
 Der Implementierungsplan für den automatisierten Onboarding-Prozess zeigt die sieben Hauptarbeiten die ausgeführt werden. Jeder dieser Arbeiten ist sher wichtig für das Gesamtprodukt und keines davon kann weggelassen werden.
 
-## Entwicklung Python Skript
 ## Modellierung in Camunda
+
+## Entwicklung Python Skript
+
+Meine API Permissions:
+
+![APIPermissions](<../Pictures/API Permissions.png>)
+
+### Aufgetretene Probleme
+
+Zuerst hatte ich folgendes Problem:
+
+![Problem1](../Pictures/Problem1.png)
+
+Lösung: 
+
+`pip install requests`
+
+Danach hatte ich folgendes Problem:
+
+![Problem2](../Pictures/Problem2.png)
+
+Lösung: 
+
+`pip install msal`
+
+Nun hatte ich folgendes Problem:
+
+![Problem3](../Pictures/Problem3.png)
+
+Um herauszufinden was das Problem ist, habe ich folgendes Skript verwendet:
+
+```bash
+import msal
+
+# Konfigurationsvariablen
+
+CLIENT_ID = "xxxx"
+CLIENT_SECRET = "xxxx"
+TENANT_ID = "xxxx"
+
+# Authority-URL
+authority = f"https://login.microsoftonline.com/{TENANT_ID}"
+
+# MSAL-Client erstellen
+app = msal.ConfidentialClientApplication(
+    CLIENT_ID,
+    authority=authority,
+    client_credential=CLIENT_SECRET)
+
+# Versuche, ein Access Token abzurufen
+print("Hole Access Token...")
+response = app.acquire_token_for_client(scopes=["https://graph.microsoft.com/.default"])
+
+# Debugging: Gibt die vollständige Antwort aus
+print("Antwort vom Token-Abruf:")
+print(response)
+
+# Überprüfe, ob das Token erfolgreich abgerufen wurde
+if "access_token" in response:
+    print("Access Token erfolgreich abgerufen!")
+    access_token = response["access_token"]
+else:
+    print("Fehler beim Abrufen des Access Tokens:")
+    print(response.get("error"))
+    print(response.get("error_description"))
+    print("Prozess abgebrochen.")
+    exit()  # Beendet das Skript`
+```
+
+Nun konnte ich im debugger sehen dass es am Client secret lag und ich den value hinterlegen muss und nicht die ID.
+
+Nun erhielt ich aber folgenden Error:
+
+```bash
+Fehler beim Erstellen des Benutzers: 403 - {"error":{"code":"Authorization_RequestDenied","message":"Insufficient privileges to complete the operation.","innerError":{"date":"2024-12-05T12:07:47","request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a","client-request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a"}}}
+```
+Als ich den Fehlercode gesucht habe, habe ich herausgefunden, dass mir noch folgende rechte gefehlt haben:
+
+- `User.ReadWrite.All`
+- `Directory.ReadWrite.All`
+
+Nun musste ich beim Admin die freigabe dieser Rechte anfragen. Sobald ich die Rechte hatte, hat es geklappt:
+
+![Lösung](../Pictures/Lösung.png)
+
 ## Projekt Umsetzung
 ## Fallbacksolution
 

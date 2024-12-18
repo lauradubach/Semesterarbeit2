@@ -21,8 +21,6 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
     - [Besprechungsnotiz](#besprechungsnotiz)
   - [Zwischengespräch 2](#zwischengespräch-2)
     - [Besprechungsnotiz](#besprechungsnotiz-1)
-  - [Zwischengespräch 3](#zwischengespräch-3)
-    - [Besprechungsnotiz](#besprechungsnotiz-2)
 
 
 # Versionenverzeichniss
@@ -38,6 +36,7 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 1.6 | 27.11.2024 | Laura Dubach | Besprechungsnotiz schreiben |
 | 1.7 | 03.12.2024 | Laura Dubach | Start Python Skript |
 | 1.8 | 11.12.2024 | Laura Dubach | Seusag überarbeiten |
+| 1.9 | 18.12.2024 | Laura Dubach | Umsetzung Skript beschreiben, Troubleshooting beschreiben |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
@@ -141,12 +140,6 @@ Das Gespräch war gut und sehr informiativ. All meine Fragen konnten beantwortet
 
 ### Besprechungsnotiz
 
-## Zwischengespräch 3
-
-| Besprechung | Datum | Uhrzeit | Teilnehmer | 
-| ---- | ---- | ---- | ---- |
-
-### Besprechungsnotiz
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2?tab=readme-ov-file)
 >
