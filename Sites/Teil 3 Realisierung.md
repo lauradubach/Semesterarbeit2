@@ -33,6 +33,8 @@ Meine API Permissions:
 
 ![APIPermissions](<../Pictures/API Permissions.png>)
 
+Fertiggestelltes Skript:
+
 ### Aufgetretene Probleme
 
 Zuerst hatte ich folgendes Problem:
