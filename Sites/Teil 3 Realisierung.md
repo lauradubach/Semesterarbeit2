@@ -4,9 +4,9 @@ Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, w
 - [Teil 3 Realisieren](#teil-3-realisieren)
 - [Realisieren](#realisieren)
   - [Implementierungsplan](#implementierungsplan)
-  - [Entwicklung Python Skript](#entwicklung-python-skript)
   - [Modellierung in Camunda](#modellierung-in-camunda)
-  - [Projekt Umsetzung](#projekt-umsetzung)
+  - [Entwicklung Python Skript](#entwicklung-python-skript)
+    - [Aufgetretene Probleme](#aufgetretene-probleme)
   - [Fallbacksolution](#fallbacksolution)
 - [Kontrollieren](#kontrollieren)
   - [Testing](#testing)
@@ -104,17 +104,23 @@ Nun erhielt ich aber folgenden Error:
 ```bash
 Fehler beim Erstellen des Benutzers: 403 - {"error":{"code":"Authorization_RequestDenied","message":"Insufficient privileges to complete the operation.","innerError":{"date":"2024-12-05T12:07:47","request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a","client-request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a"}}}
 ```
-Als ich den Fehlercode gesucht habe, habe ich herausgefunden, dass mir noch folgende rechte gefehlt haben:
+Als ich den Fehlercode gesucht habe, habe ich herausgefunden, dass mir noch folgende Rechte gefehlt haben:
 
 - `User.ReadWrite.All`
 - `Directory.ReadWrite.All`
 
-Nun musste ich beim Admin die freigabe dieser Rechte anfragen. Sobald ich die Rechte hatte, hat es geklappt:
+Nun musste ich beim Admin die Freigabe dieser Rechte anfragen. Sobald ich die Rechte hatte, hat es geklappt:
 
 ![Lösung](../Pictures/Lösung.png)
 
-## Projekt Umsetzung
+Das vollendete Skript ist hier abgelegt:
+
+> [Skript](https://github.com/lauradubach/Semesterarbeit2/tree/main/Skripts)
+
+
 ## Fallbacksolution
+
+Da das Projekt auf dem Demo Tenant durchgeführt wurde, benötigt es keine Fallbacksolution. Falls etwas nicht klappt während dem Betrieb kann das Onboarding einfach Manuell durchgeführt werden, bis das Problem behoben wird.
 
 # Kontrollieren
 Die Kontrolle ist sehr wichtig. So kann versichert werden, dass das Enprodukt funktioniert und alle Tests erfolgreich geklappt haben.
@@ -127,6 +133,8 @@ Die Kontrolle ist sehr wichtig. So kann versichert werden, dass das Enprodukt fu
 ### Testdurchführung
 
 ## Schulung Team
+
+Das ganze Support Team erhält täglich Onboardings. So muss dem Team gezeigt werden, wie genau Sie das Skript verwenden müssen. Dies kann am besten in einer kurzen Demo-Session demonstriert werden. Es wird gezeigt wie die Daten eingetragen werden und wie dann das Skript ausgeführt wird. 
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Vorbereitung.md)
 >
