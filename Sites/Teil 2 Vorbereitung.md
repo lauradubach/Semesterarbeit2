@@ -61,10 +61,10 @@ Das aktuelle Onboarding-Verfahren für neue Benutzer in der Azure-Umgebung ist s
 ### Manuelle Erstellung des Benutzerkontos
 Jeder neue Benutzer wird in Azure Active Directory (AAD) von einem Administrator manuell erstellt. Dabei müssen grundlegende Informationen wie Benutzername, E-Mail und andere personenbezogene Daten von Hand eingegeben werden. Dies erfordert eine akkurate und vollständige Eingabe, um spätere Korrekturen oder Unstimmigkeiten zu vermeiden.
 
-### Manuelle Zuweisung von Lizenzen und Gruppen:
+### Manuelle Zuweisung von Lizenzen und Gruppen
 Nachdem der Benutzer angelegt wurde, erfolgt die manuelle Zuweisung der erforderlichen Lizenzen, je nach Rolle oder Abteilung des neuen Mitarbeiters. Auch die Mitgliedschaft in verschiedenen Gruppen wird individuell vergeben, um den Zugriff auf die notwendigen Ressourcen und Anwendungen zu ermöglichen. Da dies manuell erfolgt, besteht das Risiko, dass Benutzer fälschlicherweise unzureichende oder zu umfangreiche Zugriffsrechte erhalten.
 
-### Potenzielle Herausforderungen und Risiken:
+### Potenzielle Herausforderungen und Risiken
 Das stark manuelle Verfahren erhöht das Risiko für menschliche Fehler, wie Tippfehler, vergessene Zugriffsrechte oder falsche Gruppenzuweisungen. Dadurch können Sicherheits- und Compliance-Risiken entstehen, insbesondere wenn sensible Daten oder Ressourcen betroffen sind. Zudem erhöht sich durch diesen manuellen Ansatz die Einarbeitungszeit neuer Benutzer und das Onboarding verzögert sich.
 
 Dieses manuelle Vorgehen im Onboarding ist zeitaufwändig und fehleranfällig und erschwert eine schnelle Anpassung an Unternehmensanforderungen. 
@@ -103,7 +103,7 @@ Mit dieser Architektur lassen sich manuelle Aufgaben reduzieren, Fehler vermeide
 
 > (Chat GPT) [Quelle](https://chatgpt.com/share/6724ab57-b13c-800e-bfc9-da621fae374f)
 
-## Was kann automatisieren werden?
+## Was kann automatisiert werden?
 Um das Onboarding in Azure mit Python und Camunda effizienter zu gestalten, können mehrere Schritte automatisiert werden. Dabei gibt es verschiedene Bereiche, in denen die Automatisierung zu einer erheblichen Zeitersparnis, Fehlervermeidung und Prozessverbesserung führt.
 
 ### Automatische Benutzererstellung in Azure
