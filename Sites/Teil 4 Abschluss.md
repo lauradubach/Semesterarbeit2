@@ -4,23 +4,20 @@ Der letzte Teil der Arbeit. Hier wird die ganze Auswertung des Projektes beschri
 - [Teil 4 Abschluss](#teil-4-abschluss)
 - [Auswerten](#auswerten)
   - [Zusammenfassung](#zusammenfassung)
-  - [Analyse der Effizienssteigerung](#analyse-der-effizienssteigerung)
   - [Reflexion](#reflexion)
     - [Persönlich Reflexion](#persönlich-reflexion)
     - [Reflexion der Technischen Umsetzung](#reflexion-der-technischen-umsetzung)
       - [Analysen und Planung](#analysen-und-planung)
       - [Entscheidung](#entscheidung)
       - [Umsetzung des Projektes](#umsetzung-des-projektes)
-      - [Datenmigration](#datenmigration)
       - [Optimierung](#optimierung)
     - [Fazit](#fazit)
-      - [Kosteneffizienz](#kosteneffizienz)
-      - [Skalierbarkeit und Flexibilität](#skalierbarkeit-und-flexibilität)
-      - [Sicherheit und Zugänglichkeit](#sicherheit-und-zugänglichkeit)
+      - [Effizienssteigerung](#effizienssteigerung)
     - [Lernerfahrungen](#lernerfahrungen)
     - [Mögliche Weiterentwicklung](#mögliche-weiterentwicklung)
-      - [Erweiterte Datenanalyse](#erweiterte-datenanalyse)
-      - [Verbesserte Sicherheitsmaßnahmen](#verbesserte-sicherheitsmaßnahmen)
+      - [Erweiterte Funktionalität](#erweiterte-funktionalität)
+      - [Skalierbarkeit und Performance](#skalierbarkeit-und-performance)
+      - [Fehlerhandling und Robustheit](#fehlerhandling-und-robustheit)
   - [Quellen](#quellen)
 
 
@@ -31,67 +28,61 @@ Im Kapitel Auswerten wird der Abschluss des Projektes beschrieben. Es wird Zusam
 
 In diesem Projekt habe ich eine Projektmanagement Methode angewendet und umgesetzt. Dies wurde nach der IPERKA Methode durchgeführt. Alle Schritte wurden genau dokumentiert. Die Planung und Entscheidung des Projektes sind mit Grafiken evaluiert worden, sodass alles bestmöglich ersichtlich ist. Die Realisierung wurde dann über ein Python Skriot und dem Camunda ausgeführt. Alle Probleme wurden gelöst und die Tests wurden durchgeführt und notiert. Das Projekt wurde mit Notion geführt und so konnte die Struktur und Organisation gut und übersichtlich gehandhabt werden. Alle Quellen wurden aufgeführt und korrekt verlinkt. Die Gespräche wurde notiert und die Gesprächsthemen dokumentiert.
 
-## Analyse der Effizienssteigerung
 ## Reflexion
 ### Persönlich Reflexion
 
-Meiner Meinung nach ist das Projekt gut gelaufen. Alle meine Ziele konnte ich erreichen und die Dokumentation ist mir gelungen. Der Aufbau ist für mich klar ersichtlich und strukturiert. Es war spannend, neue Tools kennenzulernen wie Gant und Notion. Zusätzlich konnte ich meine erlernten Skills gut anwenden und mein Skript-Wissen weiterentwickeln. Das Zertifikat war eine Herausforderung für mich und ich war sehr nervös vor der Prüfung. Die Vorbereitung hatte ich jedoch gut geplant und sehr viel gelernt. Die Zeitplanung könnte ich noch etwas genauer Planen, da mir manchmal noch etwas aufgefallen ist, was ich noch zusätzlich dokumentieren sollte. Ich habe genug Zeit für Überraschungen eingeplant, jedoch verursacht es trotzdem einen gewissen Stress.
+Meiner Meinung nach ist das Projekt gut gelaufen. Alle meine Ziele konnte ich erreichen und die Dokumentation ist mir gelungen. Der Aufbau ist für mich klar ersichtlich und strukturiert. Es war spannend mit Python und Camunda zu arbeiten und neues zu lernen. Zusätzlich konnte ich meine erlernten Skills gut anwenden und mein Skript-Wissen weiterentwickeln. Die einbindung vom Python-Skript ins Camunda war eine Herausforderung für mich. Ich hatte einiges länger für diesen Schritt als ich mir gedacht habe. Es gab viele Probleme und ich war lange Zeit am Troubleshooten. Die Zeitplanung könnte ich noch etwas verbessern, da ich dann doch in Zeitstress gelangte, weil die Einbindung noch nicht geklappt hatte. 
 
 ### Reflexion der Technischen Umsetzung
 #### Analysen und Planung
 
-Ich begann mit einer detaillierten Analyse, um die Bedürfnisse der Kunden zu verstehen. Dort wurde veranschaulicht, was für Anforderungen an Datenvolumen, Zugriffszeiten und Sicherheit der Daten steht. Dann wurde noch kurz die Theorie zum Thema Big Data beschrieben. Dies half mir später, die richtige Entscheidung für die Storage-Lösung zu treffen.
+Ich begann mit einer detaillierten Analyse, um die Bedürfnisse meines Unternehmens zu verstehen. Dort wurde veranschaulicht, was für Anforderungen Sie an das Automatisierte Skript haben und was alles Automatisiert werden sollte.
 
-Die Planungsphase war wichtig, da sie die Grundlage für eine erfolgreiche Implementierung legte. Es wurde ein Zeitplan entworfen und ein Lernplan. Zusätzlich wurde das Tool Notion verwendet, um eine genaue Struktur zu schaffen.
+Die Planungsphase war wichtig, da sie die Grundlage für eine erfolgreiche Implementierung legte. Es wurde ein Zeitplan entworfen und dieser wurde ins Notion übertragen. Das Tool Notion habe ich verwendet, um eine genaue Struktur zu schaffen.
 
 #### Entscheidung
 
-Bei der Entscheidung wurden viele Aspekte beachtet. Es wurde ein Produktvergleich zwischen zwei gewählten Storage-Lösungen gemacht. Die Vor -und Nachteile wurden auch aufgezeigt. Es gab noch eine Kostenanalyse und zum Schluss eine Entscheidungsmatrix.
+Bei der Entscheidung wurden viele Aspekte beachtet. Es wurde ein Produktvergleich zwischen zwei gewählten Automatisierungs Produkten gemacht. Die Vor -und Nachteile wurden auch aufgezeigt. Es gab zum Schluss eine Entscheidungsmatrix, um das beste Produkt zu wählen.
 
-Nun stand fest, dass man den Azure Blob Storage evaluieren wird.
+Nun stand fest, dass man das Projekt mit Camunda umsetzten wird.
 
 #### Umsetzung des Projektes
 
-Als nächster Schritt wurde ein CLI-Skript geschrieben. In diesem werden alle Ressourcen direkt installiert, sodass man von Hand nichts mehr selbst machen musste. Da ich keine erfahrene skripterin bin, war dies eine Herausforderung. Mit Hilfe des Internet und Troubleshooting meines Dozenten, hat dies aber super funktioniert. Die Probleme konnten schnell überwunden werden und das Skript funktionierte.
-
-Damit ich nicht jedes Mal von Hand die Ressourcen löschen musste, habe ich ein kurzes Löschungs-skript geschrieben, welches dies für mich übernommen hatte. Die Nutzung von Azure-Tools wie dem Azure Storage Explorer und der Azure CLI vereinfachte diese Prozesse erheblich.
-
-#### Datenmigration
-
-Mit az Storage Upload konnte ich alle Daten direkt hochladen. Dies habe ich im Skript integriert, sodass alles mit dem Ausführen des Skriptes direkt erledigt ist.
+Als nächster Schritt wurde ein Python-Skript geschrieben. In diesem wird der User erstellt mit allen nötigen Informationen. Zusätzlich wird die Einbindung mit Camunda gemacht. Es gaht einige Hindernisse. Mit Hilfe des Internet, ChatGPT und Troubleshooting mit meinen Dozenten, hat dies aber super funktioniert. Die Probleme konnten überwunden werden und das Skript funktionierte.
 
 #### Optimierung
 
 Nach der Implementierung führte ich Tests durch, um potenzielle Probleme frühzeitig zu erkennen. Die Tests sind gut verlaufen und wurden dokumentiert.
 
 ### Fazit
-#### Kosteneffizienz
+#### Effizienssteigerung
 
-Die Nutzung von Azure Blob Storage führte zu erheblichen Kosteneinsparungen im Vergleich zu herkömmlichen On-Premise-Speicherlösungen. Dies lag vor allem an der bedarfsgerechten Skalierbarkeit und den flexiblen Preismodellen von Azure.
-
-#### Skalierbarkeit und Flexibilität
-
-Die Speicherlösung ist jetzt hoch skalierbar und flexibel, was ermöglicht, problemlos auf wachsende Datenmengen zu reagieren. Dies ist besonders wichtig für zukünftiges Wachstum und datenintensive Anwendungen.
-
-#### Sicherheit und Zugänglichkeit
-
-Durch die Implementierung der Sicherheitsmassnahmen konnte die Datensicherheit verbessert werden. Gleichzeitig sind die Daten nun von überall und jederzeit zugänglich, was die Effizienz der Arbeitsprozesse erhöht.
+Durch die Automatisierung wird Zeit gespart, es gibt keine menschlichen Fehler wie Tippfehler, vergessene Zugriffsrechte oder falsche Gruppenzuweisungen. Der Prozess kann besser überwacht werden und der User kann direkt starten.
 
 ### Lernerfahrungen
 
-Ich haben gelernt, dass eine gründliche Planung und Automatisierung entscheidend für den Erfolg solcher Projekte sind. Analysen und korrekte Informationsbeschaffungen sind ebenfalls notwendig, um ein Projekt erfolgreich umzusetzen.
+Ich haben gelernt, dass eine gründliche Planung und Automatisierung entscheidend für den Erfolg solcher Projekte sind. Analysen und korrekte Informationsbeschaffungen sind ebenfalls notwendig, um ein Projekt erfolgreich umzusetzen. Ich habe auch viel über das Troubleshooten gelernt. 
 
-### Mögliche Weiterentwicklung
+### Mögliche Weiterentwicklung  
 
-Für die zukünftige Weiterentwicklung der Azure Blob Storage-Implementierung haben ich noch einige Ideen:
+Ein Skript kann natürlich stetig verbessert und weiterentwickelt werden. Es gibt immer wieder Möglichkeiten ein Skript zu erweitern und neue Ideen umzusetzten.
 
-#### Erweiterte Datenanalyse
+#### Erweiterte Funktionalität
+- Neue Features:
+  Überlegen, welche zusätzlichen Funktionen das Onboarding noch enthalten könnte.  
 
-Durch die Integration von Azure Data Lake und Azure Databricks kann man erweiterte Analysen und Big-Data-Verarbeitung durchführen, um wertvolle Erkenntnisse aus den Daten zu gewinnen.
+#### Skalierbarkeit und Performance
+- Optimierung des Python-Skripts:
+  Das Skript könnte hinsichtlich Performance, Modularität und Wartbarkeit weiter optimiert werden. Beispielsweise durch effizientere Algorithmen oder die Nutzung von Frameworks, die bessere Skalierbarkeit ermöglichen.  
+- Erweiterung des Einsatzbereichs:
+  Überprüfen, ob das Produkt bei anderen Kunden auch angewendet werden könnte
 
-#### Verbesserte Sicherheitsmaßnahmen
+#### Fehlerhandling und Robustheit  
+- Verbesserung der Testabdeckung:
+  Zusätzliche Tests könnten hinzugefügt werden, um sicherzustellen, dass das Produkt auch in Ausnahmefällen stabil bleibt.  
+- Logging und Monitoring:
+  Implementierung eines robusten Loggingsystems, um Fehler und Leistungsprobleme im Betrieb besser nachvollziehen und beheben zu können.  
 
-Kontinuierliche Überprüfung und Verbesserung der Sicherheitsmaßnahmen, einschließlich der Implementierung von Azure Security Center, um Bedrohungen frühzeitig zu erkennen und zu verhindern. Durch die Implementierung von RBAC könnte man die Datensicherheit erheblich verbessern.
 
 ## Quellen
 Kapitel IPERKA, Site Einleitung
