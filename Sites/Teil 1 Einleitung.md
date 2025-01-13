@@ -37,6 +37,9 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 1.7 | 03.12.2024 | Laura Dubach | Start Python Skript |
 | 1.8 | 11.12.2024 | Laura Dubach | Seusag überarbeiten |
 | 1.9 | 18.12.2024 | Laura Dubach | Umsetzung Skript beschreiben, Troubleshooting beschreiben |
+| 2.0 | 23.12.2024 | Laura Dubach | Fallbacksolution & Tests dokumentieren |
+| 2.1 | 30.12.2024 | Laura Dubach | Dokumentation verbessern (Aufbau, Struktur, Rechtschreibung) |
+| 2.2 | 13.01.2025 | Laura Dubach | Besprechungsnotiz 2 dokumentieren |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
@@ -137,8 +140,19 @@ Das Gespräch war gut und sehr informiativ. All meine Fragen konnten beantwortet
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
+| 2 | 13.01.2025 |18:00 | Philipp Rohr, Laura Dubach |
 
 ### Besprechungsnotiz
+
+Auch dieses Gespräch wurde über einen Teamscall durchgeführt. Folgende Fragen habe ich gestellt:
+
+1. Die Error meldungen habe ich bereits beschrieben inkulsive lösungen, soll das Skript auch bechrieben werden (wie es erstellt wurde usw)?
+1. Fallbacksolution macht in meinem Projekt wenig Sinn, da es auf einem Demo Tenant umgesetzt wurde. Soll ich einfach in ein Paar Worten beschreiben, wie man vorgehen sollte, falls das Skript nicht mehr läuft?
+
+Bei der ersten Frage meinte er, dass ich nicht beschreiben soll, wie ich das Skript geschrieben habe und was, was umsetzt. Das würde viel zu lange gehen. Die Fallbacksolution macht in diesem Projekt wirklich wenig Sinn, es reicht wenn ich erkläre wie man vorgeht, wenn das Skript nicht funktioniert.
+
+Danach hatte Philipp noch eine Idee, wie ich meine Dokumentation verbessern kann. Meine Titel sind zu wenig genau.
+Er meinte die "Einleitung" könnte man zum Beispiel "Initiialisierung" nennen. Der Titel Vorbereitung ist zu wenig aussagend. Hier würde besser passen "Konseption". Realisierung passt, er meinte aber, ich soll vor dem Abschnitt "Abschluss" einen weiteren Abschnitt machen, wo beschrieben wird, wie das Projekt ins Busines eingeführt wird. Zum Beispiel wie die alten prozesse abgelöst werden und wie das Team geschult wird. Dies aber nur Theoretisch.
 
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2?tab=readme-ov-file)

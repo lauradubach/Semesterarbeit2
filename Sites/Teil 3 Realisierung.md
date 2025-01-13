@@ -4,11 +4,11 @@ Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, w
 - [Teil 3 Realisieren](#teil-3-realisieren)
 - [Realisieren](#realisieren)
   - [Implementierungsplan](#implementierungsplan)
-  - [Modellierung in Camunda](#modellierung-in-camunda)
   - [Entwicklung Python Skript](#entwicklung-python-skript)
       - [Meine API Permissions:](#meine-api-permissions)
     - [Aufgetretene Probleme](#aufgetretene-probleme)
   - [Python Skript in Camunda implementieren](#python-skript-in-camunda-implementieren)
+  - [Modellierung in Camunda](#modellierung-in-camunda)
     - [Aufgetretene Probleme](#aufgetretene-probleme-1)
   - [Fallbacksolution](#fallbacksolution)
 - [Kontrollieren](#kontrollieren)
@@ -27,10 +27,6 @@ Hier wird grob dargestellt, wie in diesem Projekt vorgegangen wird.
 ![Implementierungsplan](../Pictures/Implementierungsplan.png)
 
 Der Implementierungsplan für den automatisierten Onboarding-Prozess zeigt die sieben Hauptarbeiten die ausgeführt werden. Jeder dieser Arbeiten ist sher wichtig für das Gesamtprodukt und keines davon kann weggelassen werden.
-
-## Modellierung in Camunda
-
-
 
 ## Entwicklung Python Skript
 
@@ -192,54 +188,25 @@ if __name__ == "__main__":
     main()`
 ```
 
-Das vollendete Skript ist hier abgelegt inklusive dem JSON File:
+Das vollendeten Skripts sind hier abgelegt:
 
 > [Skript](https://github.com/lauradubach/Semesterarbeit2/tree/main/Skripts)
 
 ## Python Skript in Camunda implementieren
 
-Nun wird das Skript so angepasst, dass es in Camunda implementiert werden kann. 
+Nun wird das Skript in Camunda implementiert und deployed. 
+
+## Modellierung in Camunda
+
+Hier ist das erstellte BPMN:
+
+![Camunda](../Pictures/camunda.png)
+
+Hier ist das Formular, um die Angaben des users anzulegen:
+
+![Form](../Pictures/Form.png)
 
 ### Aufgetretene Probleme
-
-Folgender Error beim Ausführen von Rest API:
-
-`SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape`
-
-Lösung:
-
-Der Fehler `SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3` tritt auf, wenn Python einen Backslash (`\`) in einem Dateipfad falsch interpretiert, insbesondere in Windows-Systemen.
-
-Verwende Raw-Strings (`r"..."`)
-
-Um Python mitzuteilen, dass Backslashes als normale Zeichen behandelt werden sollen, kannst du einen Raw-String verwenden, indem du ein `r` vor den String setzt:
-
-`sys.path.append(r"C:\Users\DeinOrdner\PfadZumScript")`
-
-Error beim öffnen vom Browser:
-```bash
-{
-"detail": "Not Found"
-}
-```
-
-Lösung:
-
-Standardmäßig wird FastAPI beim Starten keine Route für die URL `/` definieren, wenn du diese nicht explizit hinzufügst. Wenn du den Root-Endpunkt (`/`) erreichen möchtest, kannst du diesen einfach definieren:
-
-```python
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-def read_root():
-    return {"message": "Willkommen auf der FastAPI-Root-Seite!"}
-```
-
-Wenn du das oben genannte Hinzufügst, wird der Server beim Aufruf von `http://127.0.0.1:8000/` eine Antwort zurückgeben.
-
-Danach: `uvicorn api:app --reload`
 
 Error beim Deployen im Camunda:
 
@@ -248,6 +215,22 @@ Error beim Deployen im Camunda:
 Lösung:
 
 ![timetolive](../Pictures/Lösungcamunda.png)
+
+Nächster Error beim Deployen:
+
+`ENGINE-09005 Could not parse BPMN process. Errors: attribute 'messageRef' is required | resource OnboardingProzess.bpmn | line 64 | column 74 Invalid 'messageRef': no message with id 'null' found. | resource OnboardingProzess.bpmn | line 64 | column 74 [ deploy-error ]`
+
+Lösung:
+
+![lösungcamunda2](../Pictures/lösungcamunda2.png)
+
+Nächster Error:
+
+`* Timer needs configuration (either timeDate, timeCycle or timeDuration is needed). | resource OnboardingProzess.bpmn | line 92 | column 70 [ deploy-error ]`
+
+Lösung: 
+
+![lösungcamunda3](../Pictures/lösungcamunda3.png)
 
 ## Fallbacksolution
 
