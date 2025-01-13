@@ -2,7 +2,9 @@ import requests
 from msal import ConfidentialClientApplication
 
 # Azure Konfiguration
-
+CLIENT_ID = "xxxx"
+CLIENT_SECRET = "xxxx"
+TENANT_ID = "xxxx"
 
 GRAPH_API_URL = "https://graph.microsoft.com/v1.0"
 scopes = ["https://graph.microsoft.com/.default"]
@@ -30,15 +32,15 @@ def create_user(token, user_data):
     }
     body = {
         "accountEnabled": True,
-        "displayname": user_data["displayname"],
-        "mailnickname": user_data["mailnickname"],
-        "userprincipalname": user_data["userprincipalname"],
+        "displayName": user_data["displayname"],
+        "mailNickname": user_data["mailnickname"],
+        "userPrincipalName": user_data["userprincipalname"],
         "passwordProfile": {
             "forceChangePasswordNextSignIn": True,
             "password": user_data["password"],
         },
-        "jobtitle": user_data.get("jobtitle", ""),
-        "phonenumber": user_data.get("phonenumber", []),
+        "jobTitle": user_data.get("jobtitle", ""),
+        "businessPhones": user_data.get("phonenumber", []),
         "department": user_data.get("department", ""),
         "usageLocation": "CH"
     }
@@ -47,7 +49,7 @@ def create_user(token, user_data):
         response = requests.post(f"{GRAPH_API_URL}/users", headers=headers, json=body)
         if response.status_code == 201:
             user_id = response.json()["id"]
-            print(f"Benutzer {user_data['displayName']} erfolgreich erstellt. ID: {user_id}")
+            print(f"Benutzer {user_data['displayname']} erfolgreich erstellt. ID: {user_id}")
             return user_id
         else:
             print(f"Fehler beim Erstellen des Benutzers: {response.status_code} - {response.text}")
