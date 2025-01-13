@@ -25,7 +25,7 @@ def main():
                 "userprincipalname": task.get_variable("userprincipalname"),
                 "password": task.get_variable("password"),
                 "jobtitle": task.get_variable("jobtitel"),
-                "phonenumber": task.get_variable("phonenumber"),
+                "phonenumber": task.get_variable("phonenumber").split(","),
                 "department": task.get_variable("department"),
             }
 
