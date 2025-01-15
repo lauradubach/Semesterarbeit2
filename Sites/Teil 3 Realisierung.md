@@ -243,8 +243,19 @@ Die Kontrolle ist sehr wichtig. So kann versichert werden, dass das Enprodukt fu
 ### Testkonzept
 | Testperson | Datum |
 | ---------- | ----- |
+| Laura Dubach | 23.12.2024 |
+
+| System | Testmittel | Testmethode |
+| -------| ---------- | ----------- |
+| Azure Entra ID | Python Skript, Camunda, Docker Desktop | Funktionaler Test
+
+In diesem Test wird über das Camunda Form user Daten eigetragen, dann wird das Python Skript denn User auf dem Azure Entra ID erstellen. Die Camunda Applikation läuft auf dem Docker Desktop. So wird gezeigt, ob das Projekt funktioniert hat.
 
 ### Testdurchführung
+
+| Testfall | Erwartetes Ergebnis | Testresultat |
+| ---------| ------------------- | ------------ |
+| Formular ausfüllen | Das Formular erscheint im Camunda und kann korrekt ausgefüllt werden | Sobald der Prozess gestarten wurde, ist das Formular erschienen und konnte ausgefüllt und commited werden: 
 
 ## Schulung Team
 
