@@ -10,10 +10,11 @@ In dieser Arbeit wird mein Wissen des zweiten Semesters dieser HF Ausbildung get
 
 ## Kurze Übersicht
 
-- > Einleitung [Teil1](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%201%20Einleitung.md)
-- > Vorbereitung [Teil2](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Vorbereitung.md)
+- > Initialisierung [Teil1](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%201%20Initialisierung.md)
+- > Konzeption [Teil2](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Konzeption.md)
 - > Realisierung [Teil3](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%203%20Realisierung.md)
-- > Abschluss [Teil4](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%204%20Abschluss.md)
+- > Einführung [Teil4](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%204%20Einf%C3%BChrung.md)
+- > Abschluss [Teil5](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%205%20Abschluss.md)
 
 ## Autorin
 
