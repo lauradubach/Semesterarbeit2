@@ -29,7 +29,7 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | ------- | ------ | ----  | --------- |
 | 1.0 | 24.10.2024 | Laura Dubach | Zeitplan und Notion erstellen |
 | 1.1 | 30.10.2024 | Laura Dubach | Dokument erstellt und den Aufbau gestartet. |
-| 1.2 | 01.11.2024 | Laura Dubach | Start dokumentation Kapitel informieren  |
+| 1.2 | 01.11.2024 | Laura Dubach | Start dokumentation Kapitel Initialisierung  |
 | 1.3 | 06.11.2024 | Laura Dubach | Seusag und Ist- und Soll Zustand dokumentieren |
 | 1.4 | 13.11.2024 | Laura Dubach | Tool vergleich & Entscheidungsmatrix |
 | 1.5 | 14.11.2024 | Laura Dubach | Implemetierungsplan |
@@ -39,7 +39,8 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 1.9 | 18.12.2024 | Laura Dubach | Umsetzung Skript beschreiben, Troubleshooting beschreiben |
 | 2.0 | 23.12.2024 | Laura Dubach | Fallbacksolution & Tests dokumentieren |
 | 2.1 | 30.12.2024 | Laura Dubach | Dokumentation verbessern (Aufbau, Struktur, Rechtschreibung) |
-| 2.2 | 13.01.2025 | Laura Dubach | Besprechungsnotiz 2 dokumentieren | 
+| 2.2 | 13.01.2025 | Laura Dubach | Besprechungsnotiz 2 dokumentieren |
+| 2.3 | 15.01.2025 | Laura Dubach | Abschluss dokumentieren, Reflexion schreiben |
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
