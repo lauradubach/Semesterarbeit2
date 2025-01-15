@@ -280,6 +280,6 @@ Zum Schluss noch die Ausgabe vom Python Skript:
 
 Das ganze Support Team erhält täglich Onboardings. So muss dem Team gezeigt werden, wie genau Sie das Skript verwenden müssen. Dies kann am besten in einer kurzen Demo-Session demonstriert werden. Es wird gezeigt wie die Daten eingetragen werden und wie dann das Skript ausgeführt wird.
 
-> Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Vorbereitung.md)
+> Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Konzeption.md)
 >
-> Next [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%204%20Abschluss.md)
+> Next [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%204%20Einf%C3%BChrung.md)

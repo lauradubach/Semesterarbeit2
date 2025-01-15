@@ -157,5 +157,5 @@ Er meinte die "Einleitung" könnte man zum Beispiel "Initiialisierung" nennen. D
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2?tab=readme-ov-file)
 >
-> Next [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Vorbereitung.md)
+> Next [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Konzeption.md)
 

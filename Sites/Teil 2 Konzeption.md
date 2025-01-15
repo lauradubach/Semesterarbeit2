@@ -283,6 +283,6 @@ Ich verwende die Azure Cloud, da sie in unserer Firma als Standardlösung einges
 ## Wieso Python?
 Ich verwende Python, da wir diese Programmiersprache in der Schule gelernt und intensiv behandelt haben. Python ist leicht verständlich und vielseitig einsetzbar, was sie ideal für den Einstieg in die Programmierung macht. Durch den Unterricht konnte ich praktische Erfahrung sammeln und Projekte umsetzen, die mein Verständnis für die Sprache und deren Anwendungsmöglichkeiten vertieft haben.
 
-> Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%201%20Einleitung.md)
+> Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%201%20Initialisierung.md)
 >
 > Next [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%203%20Realisierung.md)
