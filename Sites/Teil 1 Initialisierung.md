@@ -1,7 +1,7 @@
-# Teil 1 Einleitung
+# Teil 1 Initialisierung
 In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hintergrund und die Relevanz des Themas. Sie definiert das Ziel der Arbeit und formuliert die zentralen Fragen. Zudem gibt die Einleitung einen kurzen Überblick über den Aufbau der Arbeit, um eine klare Orientierung zu bieten.
 
-- [Teil 1 Einleitung](#teil-1-einleitung)
+- [Teil 1 Initialisierung](#teil-1-initialisierung)
 - [Versionenverzeichniss](#versionenverzeichniss)
 - [Aufgabenstellung](#aufgabenstellung)
   - [Ausgangslage](#ausgangslage)
@@ -39,7 +39,7 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 1.9 | 18.12.2024 | Laura Dubach | Umsetzung Skript beschreiben, Troubleshooting beschreiben |
 | 2.0 | 23.12.2024 | Laura Dubach | Fallbacksolution & Tests dokumentieren |
 | 2.1 | 30.12.2024 | Laura Dubach | Dokumentation verbessern (Aufbau, Struktur, Rechtschreibung) |
-| 2.2 | 13.01.2025 | Laura Dubach | Besprechungsnotiz 2 dokumentieren |
+| 2.2 | 13.01.2025 | Laura Dubach | Besprechungsnotiz 2 dokumentieren | 
 
 # Aufgabenstellung
 Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter

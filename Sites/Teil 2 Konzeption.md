@@ -1,12 +1,12 @@
-# Teil 2 Vorbereitung
+# Teil 2 Konzeption
 Nun gehen wir ins Thema Vorbereitung über. Wie es der Name schon ankündigt, wird hier das ganze Projekt Vorbereitet. Die Ausgangslage und Anforderungen werden beschrieben, auch was das Ziel des Projektes wird aufgezeigt. Die Planung wird gemacht und es werden Entscheidungen getroffen um das Projekt mit den Optimalen Tools umzusetzten.
 
-- [Teil 2 Vorbereitung](#teil-2-vorbereitung)
+- [Teil 2 Konzeption](#teil-2-konzeption)
 - [Informieren](#informieren)
   - [Analyse des aktuellen Onboarding Prozess](#analyse-des-aktuellen-onboarding-prozess)
     - [Manuelle Erstellung des Benutzerkontos](#manuelle-erstellung-des-benutzerkontos)
-    - [Manuelle Zuweisung von Lizenzen und Gruppen:](#manuelle-zuweisung-von-lizenzen-und-gruppen)
-    - [Potenzielle Herausforderungen und Risiken:](#potenzielle-herausforderungen-und-risiken)
+    - [Manuelle Zuweisung von Lizenzen und Gruppen](#manuelle-zuweisung-von-lizenzen-und-gruppen)
+    - [Potenzielle Herausforderungen und Risiken](#potenzielle-herausforderungen-und-risiken)
   - [Anforderungen erheben](#anforderungen-erheben)
     - [Integration von Azure und Camunda](#integration-von-azure-und-camunda)
     - [Definieren der Onboarding-Prozessschritte in Camunda](#definieren-der-onboarding-prozessschritte-in-camunda)
@@ -14,7 +14,7 @@ Nun gehen wir ins Thema Vorbereitung über. Wie es der Name schon ankündigt, wi
     - [Sicherheits- und Compliance-Anforderungen](#sicherheits--und-compliance-anforderungen)
     - [Beispielhafte Architektur:](#beispielhafte-architektur)
     - [Zusammenfassung der Anforderungen](#zusammenfassung-der-anforderungen)
-  - [Was kann automatisieren werden?](#was-kann-automatisieren-werden)
+  - [Was kann automatisiert werden?](#was-kann-automatisiert-werden)
     - [Automatische Benutzererstellung in Azure](#automatische-benutzererstellung-in-azure)
     - [Automatische Lizenzzuweisung](#automatische-lizenzzuweisung)
     - [Automatisierte Gruppenzuweisung](#automatisierte-gruppenzuweisung)

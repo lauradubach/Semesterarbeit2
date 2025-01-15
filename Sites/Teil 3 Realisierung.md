@@ -255,11 +255,30 @@ In diesem Test wird über das Camunda Form user Daten eigetragen, dann wird das 
 
 | Testfall | Erwartetes Ergebnis | Testresultat |
 | ---------| ------------------- | ------------ |
-| Formular ausfüllen | Das Formular erscheint im Camunda und kann korrekt ausgefüllt werden | Sobald der Prozess gestarten wurde, ist das Formular erschienen und konnte ausgefüllt und commited werden: 
+| Formular ausfüllen | Das Formular erscheint im Camunda und kann korrekt ausgefüllt werden. | Sobald der Prozess gestarten wurde, ist das Formular erschienen und konnte ausgefüllt und commited werden: ![TestForm](../Pictures/TestForm.png) |
+| User erstellen | Der User wird über das Python Skript erstellt und erscheint im Entra ID. | Das Python Skript läuft erfolgreich durch und erstellt denn User im Azure Entra ID: ![TestUser](../Pictures/TestUser.png) | 
+
+**Hier wird kurz alles gezeigt was erstellt wurde**
+
+Die Daten die mitgegeben wurden:
+
+![TestDaten](../Pictures/TestDaten.png)
+
+Die Gruppe die ausgewählt wurde, inklusive eine Dynamische die automatisch jedem User zugewiesen wird:
+
+![TestGruppen](../Pictures/TestGruppen.png)
+
+Die Lizenz welche im Form angegeben wurde:
+
+![TestLizenz](../Pictures/TestLizenz.png)
+
+Zum Schluss noch die Ausgabe vom Python Skript:
+
+![TestPython](../Pictures/TestPython.png)
 
 ## Schulung Team
 
-Das ganze Support Team erhält täglich Onboardings. So muss dem Team gezeigt werden, wie genau Sie das Skript verwenden müssen. Dies kann am besten in einer kurzen Demo-Session demonstriert werden. Es wird gezeigt wie die Daten eingetragen werden und wie dann das Skript ausgeführt wird. 
+Das ganze Support Team erhält täglich Onboardings. So muss dem Team gezeigt werden, wie genau Sie das Skript verwenden müssen. Dies kann am besten in einer kurzen Demo-Session demonstriert werden. Es wird gezeigt wie die Daten eingetragen werden und wie dann das Skript ausgeführt wird.
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%202%20Vorbereitung.md)
 >
