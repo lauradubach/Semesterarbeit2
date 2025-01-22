@@ -7,15 +7,13 @@ Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, w
   - [Entwicklung Python Skript](#entwicklung-python-skript)
       - [Meine API Permissions:](#meine-api-permissions)
     - [Aufgetretene Probleme](#aufgetretene-probleme)
-  - [Python Skript in Camunda implementieren](#python-skript-in-camunda-implementieren)
-  - [Modellierung in Camunda](#modellierung-in-camunda)
+  - [Modellierung \& Deployment in Camunda](#modellierung--deployment-in-camunda)
     - [Aufgetretene Probleme](#aufgetretene-probleme-1)
   - [Fallbacksolution](#fallbacksolution)
 - [Kontrollieren](#kontrollieren)
   - [Testing](#testing)
     - [Testkonzept](#testkonzept)
     - [Testdurchführung](#testdurchführung)
-  - [Schulung Team](#schulung-team)
 
 
 # Realisieren
@@ -192,11 +190,7 @@ Das vollendeten Skripts sind hier abgelegt:
 
 > [Skript](https://github.com/lauradubach/Semesterarbeit2/tree/main/Skripts)
 
-## Python Skript in Camunda implementieren
-
-Nun wird das Skript in Camunda implementiert und deployed. 
-
-## Modellierung in Camunda
+## Modellierung & Deployment in Camunda
 
 Hier ist das erstellte BPMN:
 
