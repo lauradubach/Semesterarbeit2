@@ -19,6 +19,7 @@ In dieser Arbeit wird mein Wissen des zweiten Semesters dieser HF Ausbildung get
 ## Autorin
 
 ![Autorin](Pictures/Autorin.jpg)
+
 ---
 [Laura Joana Dubach](https://github.com/lauradubach)
 
