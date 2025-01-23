@@ -1,4 +1,5 @@
 # Teil 3 Realisieren
+
 Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, wie alles realisiert wurde und wie ich vorgegangen bin. Es wird getestet und geprüft, sodass ersichtlich ist, ob alles funktioniert wie es soll. Falls Probleme aufgetaucht sind, werden diese ebenfalls beschrieben, inklusive Lösungsweg.
 
 - [Teil 3 Realisieren](#teil-3-realisieren)
@@ -7,8 +8,12 @@ Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, w
   - [Entwicklung Python Skript](#entwicklung-python-skript)
       - [Meine API Permissions:](#meine-api-permissions)
     - [Aufgetretene Probleme](#aufgetretene-probleme)
+      - [Fehlende Module](#fehlende-module)
+      - [Authentifizierungsproblem](#authentifizierungsproblem)
+      - [Neue Funktion](#neue-funktion)
   - [Modellierung \& Deployment in Camunda](#modellierung--deployment-in-camunda)
     - [Aufgetretene Probleme](#aufgetretene-probleme-1)
+      - [Deploying Error](#deploying-error)
   - [Fallbacksolution](#fallbacksolution)
 - [Kontrollieren](#kontrollieren)
   - [Testing](#testing)
@@ -17,14 +22,16 @@ Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, w
 
 
 # Realisieren
+
 Nun wird die Realisierung beschrieben. Zuerst wird ein Plan erstellt, wie genau Implementiert wird und danach wird umgesetzt. Eine Fallbacksolution wird ebenfalls beschrieben, imfalle das etwas schief geht.
 
 ## Implementierungsplan
+
 Hier wird grob dargestellt, wie in diesem Projekt vorgegangen wird.
 
 ![Implementierungsplan](../Pictures/Implementierungsplan.png)
 
-Der Implementierungsplan für den automatisierten Onboarding-Prozess zeigt die sieben Hauptarbeiten die ausgeführt werden. Jeder dieser Arbeiten ist sher wichtig für das Gesamtprodukt und keines davon kann weggelassen werden.
+Der Implementierungsplan für den automatisierten Onboarding-Prozess zeigt die sieben Hauptarbeiten die ausgeführt werden. Jeder dieser Arbeiten ist sehr wichtig für das Gesamtprodukt und keines davon kann weggelassen werden.
 
 ## Entwicklung Python Skript
 
@@ -32,13 +39,21 @@ Der Implementierungsplan für den automatisierten Onboarding-Prozess zeigt die s
 
 ![APIPermissions](<../Pictures/API Permissions.png>)
 
+Dies sind alle benötigten Berechtigungen, um das Automatisierte Onboarding durchzuführen. Alle wurden einzeln von mir beantragt und von einem Firmenadministrator bewilligt.
+
 ### Aufgetretene Probleme
 
-Zuerst hatte ich folgendes Problem:
+Während der Entwicklung des Skripts bin ich über einige Probleme gestolpert. Hier werde ich alle Probleme und Ihre Lösungen erläutern.
+
+#### Fehlende Module
+
+Beim ersten durchlauf des Skripts, hatte ich folgendes Problem:
 
 ![Problem1](../Pictures/Problem1.png)
 
-Lösung: 
+Lösung:
+
+Hier hat mir noch ein Modul gefehlt. Dies installierte ich dann mit folgendem Befehl:
 
 `pip install requests`
 
@@ -48,11 +63,17 @@ Danach hatte ich folgendes Problem:
 
 Lösung:
 
+Hier war ebenfalls noch eine installation eines Moduls nötig:
+
 `pip install msal`
+
+#### Authentifizierungsproblem
 
 Nun hatte ich folgendes Problem:
 
 ![Problem3](../Pictures/Problem3.png)
+
+Lösung:
 
 Um herauszufinden was das Problem ist, habe ich folgendes Skript verwendet:
 
@@ -96,19 +117,24 @@ else:
 
 Nun konnte ich im debugger sehen dass es am Client secret lag und ich den value hinterlegen muss und nicht die ID.
 
-Nun erhielt ich aber folgenden Error:
+Danach erhielt ich aber folgenden Error:
 
 ```bash
 Fehler beim Erstellen des Benutzers: 403 - {"error":{"code":"Authorization_RequestDenied","message":"Insufficient privileges to complete the operation.","innerError":{"date":"2024-12-05T12:07:47","request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a","client-request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a"}}}
 ```
+
+Lösung: 
+
 Als ich den Fehlercode gesucht habe, habe ich herausgefunden, dass mir noch folgende Rechte gefehlt haben:
 
 - `User.ReadWrite.All`
 - `Directory.ReadWrite.All`
 
-Nun musste ich beim Admin die Freigabe dieser Rechte anfragen. Sobald ich die Rechte hatte, hat es geklappt:
+Nun musste ich beim Admin die Freigabe dieser Rechte anfragen. Sobald ich die Rechte hatte, hat es geklappt.
 
 ![Lösung](../Pictures/Lösung.png)
+
+#### Neue Funktion
 
 Nun wollte ich die Funktion im Skript hinzufügen, dass eine Lizenz zugewiesen wird. Hier bekam ich folgenden Error:
 
@@ -125,7 +151,7 @@ Ich musste folgendes im Skript ergänzen:
 
 `"usageLocation": "CH”`
 
-Um die ID der Lizenz herauszufinden habe ich folgendes Skript verwendet:
+Damit die korrekte Lizenz dem User hinzugefügt wird musst ich die ID herausfinden. Dafür habe ich folgendes Skript verwendet:
 
 ```python
 `import requests
@@ -186,13 +212,15 @@ if __name__ == "__main__":
     main()`
 ```
 
-Das vollendeten Skripts sind hier abgelegt:
+Nun konnte ich die Richtige Lizenz hinzufügen und das Skript hat funktioniert.
+
+Die vollendeten Skripts sind hier abgelegt:
 
 > [Skript](https://github.com/lauradubach/Semesterarbeit2/tree/main/Skripts)
 
 ## Modellierung & Deployment in Camunda
 
-Hier ist das erstellte BPMN:
+Hier ist das fertiggestellte BPMN:
 
 ![Camunda](../Pictures/camunda.png)
 
@@ -202,11 +230,15 @@ Hier ist das Formular, um die Angaben des users anzulegen:
 
 ### Aufgetretene Probleme
 
+#### Deploying Error
+
 Error beim Deployen im Camunda:
 
 `ENGINE-12018 History Time To Live (TTL) cannot be null. TTL is necessary for the History Cleanup to work`
 
 Lösung:
+
+Hier hat noch die Time to live gefehlt, welche ich dann nachgetragen habe.
 
 ![timetolive](../Pictures/Lösungcamunda.png)
 
@@ -216,6 +248,8 @@ Nächster Error beim Deployen:
 
 Lösung:
 
+Die Message referenz habe ich noch nicht eingetragen, als ich diese dann wie folgt nachgetragen haben war der Error gelöst:
+
 ![lösungcamunda2](../Pictures/lösungcamunda2.png)
 
 Nächster Error:
@@ -224,7 +258,11 @@ Nächster Error:
 
 Lösung: 
 
+Beim Timer hat noch die Wartezeit gefehlt, die musste ich wie folgt eintragen:
+
 ![lösungcamunda3](../Pictures/lösungcamunda3.png)
+
+Danach hat das Deployen geklappt und der User wurde erstellt.
 
 ## Fallbacksolution
 
