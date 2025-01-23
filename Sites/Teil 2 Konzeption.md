@@ -202,6 +202,12 @@ Hier werde ich das ganze Projekt planen. Es wird ein Zeitplan erstellt, wann wel
 ## Zeitplan
 ![Zeitplan](../Pictures/Zeitplan.png)
 
+Hier ist mein Grafischer Zeitplan. Im Notion habe ich jedoch die ganze Planung umgesetzt:
+
+Dies wäre der Link:
+
+[Notion](https://ebony-pufferfish-d9f.notion.site/Semesterarbeit-2-113bfebe3525806c82d0e9af0481d359)
+
 ### Meilensteine
 
 #### Einreichungsformular
