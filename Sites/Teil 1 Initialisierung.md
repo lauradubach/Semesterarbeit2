@@ -1,5 +1,6 @@
 # Teil 1 Initialisierung
-In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hintergrund und die Relevanz des Themas. Sie definiert das Ziel der Arbeit und formuliert die zentralen Fragen. Zudem gibt die Einleitung einen kurzen Überblick über den Aufbau der Arbeit, um eine klare Orientierung zu bieten.
+
+In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hintergrund und die Relevanz des Themas. Sie definiert das Ziel der Arbeit und formuliert die zentralen Fragen. Zudem gibt die Intialisierung einen kurzen Überblick über den Aufbau der Arbeit, um eine klare Orientierung zu bieten.
 
 - [Teil 1 Initialisierung](#teil-1-initialisierung)
 - [Versionenverzeichniss](#versionenverzeichniss)
@@ -41,36 +42,45 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | 2.1 | 30.12.2024 | Laura Dubach | Dokumentation verbessern (Aufbau, Struktur, Rechtschreibung) |
 | 2.2 | 13.01.2025 | Laura Dubach | Besprechungsnotiz 2 dokumentieren |
 | 2.3 | 15.01.2025 | Laura Dubach | Abschluss dokumentieren, Reflexion schreiben |
+| 2.4 | 23.01.2025 | Laura Dubach | Finalisierung Dokumentation |
 
 # Aufgabenstellung
-Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter
-zu entwickeln, der mit Python und Camunda die aktuellen manuellen Abläufe ablöst. Dabei sollen Python-Skripte wiederkehrende Aufgaben wie die Datenerfassung, Benutzerkontenerstellung und Rechtevergabe übernehmen, während Camunda BPM den gesamten Prozess modelliert und steuert. Die Automatisierung soll die Effizienz des Prozesses steigern, Fehlerquellen minimieren und die Transparenz erhöhen, insbesondere im Hinblick auf eine skalierbare Lösung für Unternehmen mit wachsender Mitarbeiterzahl.
+
+Ziel dieser Arbeit ist es, einen automatisierten Onboarding-Prozess für neue Mitarbeiter zu entwickeln, der mit Python und Camunda die aktuellen manuellen Abläufe ablöst. Dabei sollen Python-Skripte wiederkehrende Aufgaben wie die Datenerfassung, Benutzerkontenerstellung und Rechtevergabe übernehmen, während Camunda BPM den gesamten Prozess modelliert und steuert. Die Automatisierung soll die Effizienz des Prozesses steigern, Fehlerquellen minimieren und die Transparenz erhöhen, insbesondere im Hinblick auf eine skalierbare Lösung für Unternehmen mit wachsender Mitarbeiterzahl.
 
 ## Ausgangslage
-In vielen Unternehmen erfolgt der Onboarding-Prozess für neue Mitarbeiter
-noch weitgehend manuell. Typische Aufgaben wie die Erfassung von Mitarbeiterdaten, das Einrichten von Benutzerkonten und die Vergabe von Zugriffsrechten sind zeitaufwändig und fehleranfällig. Dies ist Zeitaufwändig und durch das manuelle erstellen, können auch Fehler passieren. Das Unternehmen wünscht sich daher eine automatisierte Lösung, die den Onboarding-Prozess effizienter und transparenter gestaltet und die Fehlerfreiheit erfüllt.
+
+In vielen Unternehmen erfolgt der Onboarding-Prozess für neue Mitarbeiter noch weitgehend manuell. Typische Aufgaben wie die Erfassung von Mitarbeiterdaten, das Einrichten von Benutzerkonten und die Vergabe von Zugriffsrechten sind zeitaufwändig und fehleranfällig. Durch das manuelle erstellen, können auch Fehler passieren. Das Unternehmen wünscht sich daher eine automatisierte Lösung, die den Onboarding-Prozess effizienter und transparenter gestaltet und die Fehlerfreiheit erfüllt.
 
 ## Ziele
+
 Das Ziel dieser Semesterarbeit ist es, den Onboarding-Prozess eines Unternehmens zu analysieren und eine effiziente, automatisierte Lösung zur Durchführung dieses Prozesses zu entwickeln. Hierbei soll Python als zentrale Programmiersprache zur Implementierung der Geschäftslogik genutzt werden, während die Prozessautomatisierung mit Camunda realisiert wird.
 Im Detail soll ein funktionierender Prototyp erstellt werden, der den gesamten Onboarding-Prozess, von der Erstellung eines neuen Mitarbeiters bis hin zur Bereitstellung von Zugangsdaten und Ressourcen, automatisiert abwickelt. Die Automatisierung soll durch eine Kombination von Skripten in Python und modellierten BPMN-Prozessen (Business Process Model and Notation) in Camunda erfolgen.
 
 Folgende Aspekte stehen im Fokus:
+
 1. Analyse des aktuellen Onboarding-Prozesses: Erhebung der Anforderungen und Identifizierung der Schritte, die automatisiert werden können.
 2. Entwicklung einer Python-Lösung: Implementierung von einem Skript zur Abwicklung der Geschäftslogik.
-3. Camunda-Integration: Modellierung des Prozesses in BPMN und Integration dem Python-Skript in den Workflow.
+3. Camunda-Integration: Modellierung des Prozesses in BPMN und Integration des Python-Skript in den Workflow.
 4. Evaluation der Lösung: Überprüfung der Effizienzsteigerung und Fehlerreduktion im Vergleich zu manuell durchgeführten Onboarding-Prozessen.
+
 Das Ergebnis dieser Arbeit soll eine wiederverwendbare und skalierbare Lösung sein, die das Onboarding vereinfacht, beschleunigt und gleichzeitig die menschlichen Fehler minimiert.
 
 ## Mittel und Methoden
+
 ### Sachmittel
+
 - Unterrichtsressourcen
 - Microsoft Dokumentationen
 - Interne Hilfe der Firma
+- Unterstützung der Dozenten
 
 ### Programmiersprache
+
 - Python
 
 ## Werkzeuge
+
 - ChatGPT
 - PyCharm
 - Camunda modeler
@@ -82,13 +92,15 @@ Das Ergebnis dieser Arbeit soll eine wiederverwendbare und skalierbare Lösung s
 - PowerPoint
 
 ## Methode IPERKA
-Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können. IPERKA habe ich gewählt, da ich schon gute Erfahrungen in verschiedenen Projekten damit gemacht habe. Ich fühle mich Sicher damit zu arbeiten, damit war es für mich die beste Projektmethode für dies Semesterarbeit.
+
+Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können. IPERKA habe ich gewählt, da ich schon gute Erfahrungen in verschiedenen Projekten damit gemacht habe. Ich fühle mich sicher damit zu arbeiten, damit war es für mich die beste Projektmethode für diese Semesterarbeit.
 
 > (Bexio 2020) [Quelle](https://www.bexio.com/de-CH/blog/view/iperka-methode)
 
 ![IPERKA](../Pictures/IPERKA.png)
 
 # Projektorganisation
+
 ## Beteiligte Personen
 
 ### Kanditatin
@@ -98,13 +110,14 @@ Laura Joana Dubach
 Funktion: Projektleiterin
 P: 079 355 78 24
 Github: lauradubach
-E-Mail: laura.dubach@itnetx.ch
+Business E-Mail: laura.dubach@itnetx.ch
+School E-Mail: laura.dubach@edu.tbz.ch
 ```
 ### Dozenten
 
 ```
 Rohr Philipp
-Funktion: Fachdozent
+Funktion: PRJ-Dozent
 Github: phrohr
 E-Mail: philipp.rohr@tbz.ch
 ```
@@ -116,9 +129,11 @@ E-Mail: armin.doerzbach@tbz.ch
 ```
 
 # Datensicherung
+
 Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem OneDrive abspeichern. Zusätzlich werde ich die Daten auf einen USB-Stick abspeichern, damit ich im Worstcase Szenario immer noch ein Backup besitze. 
 
 # Besprechungsprotokoll
+
 ## Zwischengespräch 1
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
@@ -127,30 +142,30 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem On
 
 ### Besprechungsnotiz
 
-Wir haben uns über einen Teams Call getroffen. Ich hatte 2 Fragen zu meinem Projekt. Die erste war, ob ich den Aufbau von meiner 1ten Arbeit übernehmen darf. Philipp meinte, dass genau das auch das Ziel ist und wenn er vorher nichts bemängelt hat, ich das so machen darf udn auch soll. Das Ziel ist es ja auch, dass wir eine perfekte Vorlage für unsere Arbeiten haben und so den Aufwand sparen können.
+Wir haben uns über einen Teamscall getroffen. Ich hatte 2 Fragen zu meinem Projekt. Die erste war, ob ich den Aufbau von meiner 1ten Arbeit übernehmen darf. Philipp meinte, dass genau das auch das Ziel ist und wenn er vorher nichts bemängelt hat, ich das so machen darf. Das Ziel ist es ja auch, dass wir eine perfekte Vorlage für unsere Arbeiten haben und so den Aufwand sparen können.
 
-Danach wollte ich, dass er sich mein Seusag anschaut, da ich mir unsicher war, ob dies so gewünscht wird. Er hat mir das folgende Änderungsvorschläge gegeben:
+Danach wollte ich, dass er sich mein Seusag anschaut, da ich mir unsicher war, ob dies so gewünscht wird. Er hat mir folgende Änderungsvorschläge gegeben:
 
-- Der Punkt "Hilfsmittel" ist zu allgemein ich sollte ein andere Wort verwenden.
-- Was nicht im Projekt integriert ist, soll am besten ausserhalb der bubble gesetzt werden, sonst ist es zu verwirrend.
-- Die einzelnen Punkte  weisen momentan noch keine verbindung auf. Dies sollte ich noch anpassen.
+- Der Punkt "Hilfsmittel" ist zu allgemein ich sollte ein anderes Wort verwenden.
+- Was nicht im Projekt integriert ist, soll am besten ausserhalb der Bubble gesetzt werden, sonst ist es zu verwirrend.
+- Die einzelnen Punkte weisen momentan noch keine verbindung auf. Dies sollte ich noch anpassen.
 
-Das Gespräch war gut und sehr informiativ. All meine Fragen konnten beantwortet werden, so kann ich nun weiter an meiner Arbeit schreiben.
+Das Gespräch war gut und sehr informiativ. Alle meine Fragen konnten beantwortet werden, so kann ich nun weiter an meiner Arbeit schreiben.
 
 ## Zwischengespräch 2
 
 | Besprechung | Datum | Uhrzeit | Teilnehmer | 
 | ---- | ---- | ---- | ---- |
-| 2 | 13.01.2025 |18:00 | Philipp Rohr, Laura Dubach |
+| 2 | 13.01.2025 | 18:00 | Philipp Rohr, Laura Dubach |
 
 ### Besprechungsnotiz
 
 Auch dieses Gespräch wurde über einen Teamscall durchgeführt. Folgende Fragen habe ich gestellt:
 
-1. Die Error meldungen habe ich bereits beschrieben inkulsive lösungen, soll das Skript auch bechrieben werden (wie es erstellt wurde usw)?
+1. Die Error Meldungen habe ich bereits beschrieben inkulsive lösungen, soll das Skript auch bechrieben werden (wie es erstellt wurde usw)?
 1. Fallbacksolution macht in meinem Projekt wenig Sinn, da es auf einem Demo Tenant umgesetzt wurde. Soll ich einfach in ein Paar Worten beschreiben, wie man vorgehen sollte, falls das Skript nicht mehr läuft?
 
-Bei der ersten Frage meinte er, dass ich nicht beschreiben soll, wie ich das Skript geschrieben habe und was, was umsetzt. Das würde viel zu lange gehen. Die Fallbacksolution macht in diesem Projekt wirklich wenig Sinn, es reicht wenn ich erkläre wie man vorgeht, wenn das Skript nicht funktioniert.
+Bei der ersten Frage meinte er, dass ich nicht beschreiben soll, wie ich das Skript geschrieben habe und was, was umsetzt. Das würde viel zu lange gehen. Bei der zweiten Frage meinte er auch, dass die Fallbacksolution in diesem Projekt wenig Sinn ergibt, es reicht wenn ich erkläre wie man vorgeht, wenn das Skript nicht funktioniert.
 
 Danach hatte Philipp noch eine Idee, wie ich meine Dokumentation verbessern kann. Meine Titel sind zu wenig genau.
 Er meinte die "Einleitung" könnte man zum Beispiel "Initiialisierung" nennen. Der Titel Vorbereitung ist zu wenig aussagend. Hier würde besser passen "Konseption". Realisierung passt, er meinte aber, ich soll vor dem Abschnitt "Abschluss" einen weiteren Abschnitt machen, wo beschrieben wird, wie das Projekt ins Busines eingeführt wird. Zum Beispiel wie die alten prozesse abgelöst werden und wie das Team geschult wird. Dies aber nur Theoretisch.
