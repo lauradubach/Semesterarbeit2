@@ -1,5 +1,6 @@
 # Teil 4 Einführung
-Das Kapitel behandelt die Einführung vom Demo Tenant ins Business. Das testkonzept wird in die produktive Umgebung verschoben. Zusätzlich wird eine theoretische Einführung und Schulung für alle Beteiligten Teammitglieder umgesetzt, um einen reibungslosen Übergang sicherzustellen. Dies wird jedoch alles nur in der Theorie beschrieben, da dies nicht Teil des Projektes ist.
+
+Das Kapitel behandelt die Einführung vom Demo Tenant ins Business. Das Testkonzept wird in die produktive Umgebung verschoben. Zusätzlich wird eine theoretische Einführung und Schulung für alle Beteiligten Teammitglieder umgesetzt, um einen reibungslosen Übergang sicherzustellen. Dies wird jedoch alles nur in der Theorie beschrieben, da dies nicht Teil des Projektes ist.
 
 - [Teil 4 Einführung](#teil-4-einführung)
 - [Übergang in den Betrieb](#übergang-in-den-betrieb)
