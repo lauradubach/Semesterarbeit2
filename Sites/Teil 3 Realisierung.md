@@ -23,7 +23,7 @@ Kommen wir zur Umsetzung des Projektes. In diesem Teil wird genau beschrieben, w
 
 # Realisieren
 
-Nun wird die Realisierung beschrieben. Zuerst wird ein Plan erstellt, wie genau Implementiert wird und danach wird umgesetzt. Eine Fallbacksolution wird ebenfalls beschrieben, imfalle das etwas schief geht.
+Nun wird die Realisierung beschrieben. Zuerst wird ein Plan erstellt, wie genau Implementiert und danach umgesetzt wird. Eine Fallbacksolution wird ebenfalls beschrieben, imfalle etwas schief geht.
 
 ## Implementierungsplan
 
@@ -43,11 +43,11 @@ Dies sind alle benötigten Berechtigungen, um das Automatisierte Onboarding durc
 
 ### Aufgetretene Probleme
 
-Während der Entwicklung des Skripts bin ich über einige Probleme gestolpert. Hier werde ich alle Probleme und Ihre Lösungen erläutern.
+Während der Entwicklung des Skripts bin ich über einige Probleme gestolpert. Hier werde ich alle Probleme und deren Lösungen erläutern.
 
 #### Fehlende Module
 
-Beim ersten durchlauf des Skripts, hatte ich folgendes Problem:
+Beim ersten durchlauf des Skripts hatte ich folgendes Problem:
 
 ![Problem1](../Pictures/Problem1.png)
 
@@ -115,9 +115,9 @@ else:
     exit()  # Beendet das Skript`
 ```
 
-Nun konnte ich im debugger sehen dass es am Client secret lag und ich den value hinterlegen muss und nicht die ID.
+Nun konnte ich im debugger sehen, dass es am Client secret lag und ich den value hinterlegen muss, nicht die ID.
 
-Danach erhielt ich aber folgenden Error:
+Danach erhielt ich folgenden Error:
 
 ```bash
 Fehler beim Erstellen des Benutzers: 403 - {"error":{"code":"Authorization_RequestDenied","message":"Insufficient privileges to complete the operation.","innerError":{"date":"2024-12-05T12:07:47","request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a","client-request-id":"3957016c-f6a7-40df-a671-84f3581a6e7a"}}}
@@ -130,7 +130,7 @@ Als ich den Fehlercode gesucht habe, habe ich herausgefunden, dass mir noch folg
 - `User.ReadWrite.All`
 - `Directory.ReadWrite.All`
 
-Nun musste ich beim Admin die Freigabe dieser Rechte anfragen. Sobald ich die Rechte hatte, hat es geklappt.
+Nun musste ich beim Admin die Freigabe dieser Rechte anfragen. Sobald ich diese Rechte hatte, hat es geklappt.
 
 ![Lösung](../Pictures/Lösung.png)
 
@@ -151,7 +151,7 @@ Ich musste folgendes im Skript ergänzen:
 
 `"usageLocation": "CH”`
 
-Damit die korrekte Lizenz dem User hinzugefügt wird musst ich die ID herausfinden. Dafür habe ich folgendes Skript verwendet:
+Damit die korrekte Lizenz dem User hinzugefügt wird, musst ich die ID herausfinden. Dafür habe ich folgendes Skript verwendet:
 
 ```python
 `import requests
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     main()`
 ```
 
-Nun konnte ich die Richtige Lizenz hinzufügen und das Skript hat funktioniert.
+Nun konnte ich die richtige Lizenz hinzufügen und das Skript hat funktioniert.
 
 Die vollendeten Skripts sind hier abgelegt:
 
@@ -248,7 +248,7 @@ Nächster Error beim Deployen:
 
 Lösung:
 
-Die Message referenz habe ich noch nicht eingetragen, als ich diese dann wie folgt nachgetragen haben war der Error gelöst:
+Die Message referenz hatte ich noch nicht eingetragen, als ich diese dann wie folgt nachgetragen habe, war der Error gelöst:
 
 ![lösungcamunda2](../Pictures/lösungcamunda2.png)
 
@@ -258,7 +258,7 @@ Nächster Error:
 
 Lösung: 
 
-Beim Timer hat noch die Wartezeit gefehlt, die musste ich wie folgt eintragen:
+Beim Timer hat noch die Wartezeit gefehlt, diese musste ich wie folgt eintragen:
 
 ![lösungcamunda3](../Pictures/lösungcamunda3.png)
 
@@ -266,7 +266,7 @@ Danach hat das Deployen geklappt und der User wurde erstellt.
 
 ## Fallbacksolution
 
-Da das Projekt auf dem Demo Tenant durchgeführt wurde, benötigt es keine Fallbacksolution. Falls etwas nicht klappt während dem Betrieb kann das Onboarding einfach Manuell durchgeführt werden, bis das Problem behoben wird.
+Da das Projekt auf dem Demo Tenant durchgeführt wurde, benötigt es keine Fallbacksolution. Falls etwas nicht klappt während dem Betrieb, kann das Onboarding einfach Manuell durchgeführt werden, bis das Problem behoben wird.
 
 # Kontrollieren
 Die Kontrolle ist sehr wichtig. So kann versichert werden, dass das Enprodukt funktioniert und alle Tests erfolgreich geklappt haben.
@@ -281,7 +281,7 @@ Die Kontrolle ist sehr wichtig. So kann versichert werden, dass das Enprodukt fu
 | -------| ---------- | ----------- |
 | Azure Entra ID | Python Skript, Camunda, Docker Desktop | Funktionaler Test
 
-In diesem Test wird über das Camunda Form user Daten eigetragen, dann wird das Python Skript denn User auf dem Azure Entra ID erstellen. Die Camunda Applikation läuft auf dem Docker Desktop. So wird gezeigt, ob das Projekt funktioniert hat.
+In diesem Test wird über das Camunda Form, User Daten eigetragen. Dann wird das Python Skript den User auf dem Azure Entra ID erstellen. Die Camunda Applikation läuft auf dem Docker Desktop. So wird gezeigt, ob das Projekt funktioniert hat.
 
 ### Testdurchführung
 
@@ -296,7 +296,7 @@ Die Daten die mitgegeben wurden:
 
 ![TestDaten](../Pictures/TestDaten.png)
 
-Die Gruppe die ausgewählt wurde, inklusive eine Dynamische die automatisch jedem User zugewiesen wird:
+Die Gruppe die ausgewählt wurde, inklusive eine Dynamische, welche automatisch, jedem User zugewiesen wird:
 
 ![TestGruppen](../Pictures/TestGruppen.png)
 

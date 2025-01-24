@@ -6,7 +6,7 @@
 
 ## Zusammenfassung
 
-In dieser Arbeit wird mein Wissen des zweiten Semesters dieser HF Ausbildung getestet. Das Ziel ist es, einen Onboardingprozess mit Python und Camunda zu automatisieren. Mein Vorgehen werde ich in diesem Repository genau Dokumentieren. 
+In dieser Arbeit wird mein Wissen des zweiten Semesters dieser HF Ausbildung getestet. Das Ziel ist, einen Onboardingprozess mit Python und Camunda zu automatisieren. Mein Vorgehen werde ich in diesem Repository genau Dokumentieren. 
 
 ## Kurze Übersicht
 

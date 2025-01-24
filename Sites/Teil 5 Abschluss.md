@@ -6,14 +6,14 @@ Der letzte Teil der Arbeit. Hier wird die ganze Auswertung des Projektes beschri
 - [Auswerten](#auswerten)
   - [Zusammenfassung](#zusammenfassung)
   - [Reflexion](#reflexion)
-    - [Persönlich Reflexion](#persönlich-reflexion)
+    - [Persönliche Reflexion](#persönliche-reflexion)
     - [Reflexion der Technischen Umsetzung](#reflexion-der-technischen-umsetzung)
       - [Analysen und Planung](#analysen-und-planung)
       - [Entscheidung](#entscheidung)
       - [Umsetzung des Projektes](#umsetzung-des-projektes)
       - [Optimierung](#optimierung)
     - [Fazit](#fazit)
-      - [Effizienssteigerung](#effizienssteigerung)
+      - [Effizienzsteigerung](#effizienzsteigerung)
     - [Lernerfahrungen](#lernerfahrungen)
     - [Mögliche Weiterentwicklung](#mögliche-weiterentwicklung)
       - [Erweiterte Funktionalität](#erweiterte-funktionalität)
@@ -23,23 +23,23 @@ Der letzte Teil der Arbeit. Hier wird die ganze Auswertung des Projektes beschri
 
 
 # Auswerten
-Im Kapitel Auswerten wird der Abschluss des Projektes beschrieben. Es wird Zusammengefasst, Reflektiert und Analysiert. Auch alle Quellen die verwendet wurden werden angehängt.
+Im Kapitel Auswerten wird der Abschluss des Projektes beschrieben. Es wird Zusammengefasst, Reflektiert und Analysiert. Auch alle Quellen die verwendet wurden, werden angehängt.
 
 ## Zusammenfassung
 
-In diesem Projekt habe ich eine Projektmanagement Methode angewendet und umgesetzt. Dies wurde nach der IPERKA Methode durchgeführt. Alle Schritte wurden genau dokumentiert. Die Planung und Entscheidung des Projektes sind mit Grafiken evaluiert worden, sodass alles bestmöglich ersichtlich ist. Die Realisierung wurde dann über ein Python Skript und dem Camunda ausgeführt. Alle Probleme wurden gelöst und die Tests wurden durchgeführt und notiert. Das Projekt wurde mit Notion geführt und so konnte die Struktur und Organisation gut und übersichtlich gehandhabt werden. Alle Quellen wurden aufgeführt und korrekt verlinkt. Die Gespräche wurde notiert und die Gesprächsthemen dokumentiert.
+In diesem Projekt habe ich eine Projektmanagement Methode angewendet und umgesetzt. Diese wurde nach der IPERKA Methode durchgeführt. Alle Schritte wurden genau dokumentiert. Die Planung und Entscheidung des Projektes sind mit Grafiken evaluiert worden, sodass alles bestmöglich ersichtlich ist. Die Realisierung wurde dann über ein Python Skript und dem Camunda ausgeführt. Alle Probleme wurden gelöst und die Tests wurden durchgeführt und notiert. Das Projekt wurde mit Notion geführt und so konnte die Struktur und Organisation gut und übersichtlich gehandhabt werden. Alle Quellen wurden aufgeführt und korrekt verlinkt. Die Gespräche wurde notiert und die Gesprächsthemen dokumentiert.
 
 ## Reflexion
 
-### Persönlich Reflexion
+### Persönliche Reflexion
 
-Meiner Meinung nach ist das Projekt gut gelaufen. Alle meine Ziele konnte ich erreichen und die Dokumentation ist mir gelungen. Der Aufbau ist für mich klar ersichtlich und strukturiert. Es war spannend mit Python und Camunda zu arbeiten und neues zu lernen. Zusätzlich konnte ich meine erlernten Skills gut anwenden und mein Skript-Wissen weiterentwickeln. Die einbindung vom Python-Skript ins Camunda war eine Herausforderung für mich. Ich hatte einiges länger für diesen Schritt als ich mir gedacht habe. Es gab viele Probleme und ich war lange Zeit am Troubleshooten. Die Zeitplanung könnte ich noch etwas verbessern, da ich dann doch in Zeitstress gelangte, weil die Einbindung noch nicht geklappt hatte.
+Meiner Meinung nach ist das Projekt gut gelaufen. Alle meine Ziele konnten gut erreicht werden und die Dokumentation ist mir gelungen. Der Aufbau ist für mich klar ersichtlich und strukturiert. Es war spannend mit Python und Camunda zu arbeiten und neues zu lernen. Zusätzlich konnte ich meine erlernten Skills gut anwenden und mein Skript-Wissen weiterentwickeln. Die Einbindung vom Python-Skript ins Camunda war eine Herausforderung für mich. Ich hatte einiges länger für diesen Schritt als ich mir vorgestellt habe. Es gab viele Probleme und ich war lange Zeit am Troubleshooten. Die Zeitplanung könnte ich noch etwas verbessern, da ich unerwartet in Zeitstress gelangte, weil die Einbindung nicht ganz geklappt hatte.
 
 ### Reflexion der Technischen Umsetzung
 
 #### Analysen und Planung
 
-Ich begann mit einer detaillierten Analyse, um die Bedürfnisse meines Unternehmens zu verstehen. Dort wurde veranschaulicht, was für Anforderungen Sie an das Automatisierte Skript haben und was alles Automatisiert werden sollte.
+Ich begann mit einer detaillierten Analyse, um die Bedürfnisse meines Unternehmens zu verstehen. Dort wurde veranschaulicht, was für Anforderungen sie an das Automatisierte Skript haben und was alles Automatisiert werden sollte.
 
 Die Planungsphase war wichtig, da sie die Grundlage für eine erfolgreiche Implementierung legte. Es wurde ein Zeitplan entworfen und dieser wurde ins Notion übertragen. Das Tool Notion habe ich verwendet, um eine genaue Struktur zu schaffen.
 
@@ -59,7 +59,7 @@ Nach der Implementierung führte ich Tests durch, um potenzielle Probleme frühz
 
 ### Fazit
 
-#### Effizienssteigerung
+#### Effizienzsteigerung
 
 Durch die Automatisierung wird Zeit gespart, es gibt keine menschlichen Fehler wie Tippfehler, vergessene Zugriffsrechte oder falsche Gruppenzuweisungen. Der Prozess kann besser überwacht werden und der User kann direkt starten.
 
@@ -69,7 +69,7 @@ Ich haben gelernt, dass eine gründliche Planung und Automatisierung entscheiden
 
 ### Mögliche Weiterentwicklung  
 
-Ein Skript kann natürlich stetig verbessert und weiterentwickelt werden. Es gibt immer wieder Möglichkeiten ein Skript zu erweitern und neue Ideen umzusetzten. Zunächst könnte man einbauen, dass die Gruppen und Lizenzen anhand der Abteilung des Users zugewiesen werden.
+Ein Skript kann stetig verbessert und weiterentwickelt werden. Es gibt immer wieder Möglichkeiten ein Skript zu erweitern und neue Ideen umzusetzten. Zunächst könnte man einbauen, dass die Gruppen und Lizenzen anhand der Abteilung des Users zugewiesen werden.
 
 #### Erweiterte Funktionalität
 
@@ -79,10 +79,10 @@ Ein Skript kann natürlich stetig verbessert und weiterentwickelt werden. Es gib
 #### Skalierbarkeit und Performance
 
 - Optimierung des Python-Skripts:
-  Das Skript könnte hinsichtlich Performance, Modularität und Wartbarkeit weiter optimiert werden. Beispielsweise durch effizientere Algorythmen oder die Nutzung von Frameworks, die bessere Skalierbarkeit ermöglichen.  
+  Das Skript könnte hinsichtlich Performance, Modularität und Wartbarkeit weiter optimiert werden. Beispielsweise durch effizientere Algorythmen oder die Nutzung von Frameworks, welche bessere Skalierbarkeit ermöglichen.  
 
 - Erweiterung des Einsatzbereichs:
-  Überprüfen, ob das Produkt bei anderen Kunden auch angewendet werden könnte
+  Überprüfen, ob das Produkt auch bei anderen Kunden angewendet werden könnte.
 
 #### Fehlerhandling und Robustheit
 
@@ -90,7 +90,7 @@ Ein Skript kann natürlich stetig verbessert und weiterentwickelt werden. Es gib
   Zusätzliche Tests könnten hinzugefügt werden, um sicherzustellen, dass das Produkt auch in Ausnahmefällen stabil bleibt.
 
 - Logging und Monitoring:
-  Implementierung eines robusten Loggingsystems, um Fehler und Leistungsprobleme im Betrieb besser nachvollziehen und beheben zu können.  
+  Implementierung eines robusten Loggingsystems um Fehler und Leistungsprobleme im Betrieb besser nachvollziehen und beheben zu können.  
 
 
 ## Quellen

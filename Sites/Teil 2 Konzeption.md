@@ -1,6 +1,6 @@
 # Teil 2 Konzeption
 
-Nun gehen wir ins Thema Konzeption über. In diesem Kapitel, wird das ganze Projekt Vorbereitet. Die Ausgangslage und Anforderungen werden beschrieben, auch was das Ziel des Projektes ist, wird aufgezeigt. Die Planung wird gemacht und es werden Entscheidungen getroffen um das Projekt mit den Optimalen Tools umzusetzten.
+Nun gehen wir ins Thema Konzeption über. In diesem Kapitel wird das ganze Projekt vorbereitet. Die Ausgangslage und Anforderungen werden beschrieben, auch was das Ziel des Projektes ist, wird aufgezeigt. Die Planung wird gemacht und es werden Entscheidungen getroffen um das Projekt mit den Optimalen Tools umzusetzten.
 
 - [Teil 2 Konzeption](#teil-2-konzeption)
 - [Informieren](#informieren)
@@ -59,7 +59,7 @@ In diesem Kapitel werde ich alle Informationen zusammentragen, um das Projekt um
 
 ## Analyse des aktuellen Onboarding Prozess
 
-Das aktuelle Onboarding-Verfahren für neue Benutzer in der Azure-Umgebung ist stark manuell geprägt, was Zeit und Ressourcen beansprucht und potenzielle Fehlerquellen mit sich bringt. Der Ablauf gestaltet sich wie folgt:
+Das aktuelle Onboarding-Verfahren für neue Benutzer in der Azure-Umgebung ist stark manuell geprägt, was Zeit und Ressourcen beansprucht sowie potenzielle Fehlerquellen mit sich bringt. Der Ablauf gestaltet sich wie folgt:
 
 ### Manuelle Erstellung des Benutzerkontos
 
@@ -73,7 +73,7 @@ Nachdem der Benutzer angelegt wurde, erfolgt die manuelle Zuweisung der erforder
 
 Das stark manuelle Verfahren erhöht das Risiko für menschliche Fehler, wie Tippfehler, vergessene Zugriffsrechte oder falsche Gruppenzuweisungen. Dadurch können Sicherheits- und Compliance-Risiken entstehen, insbesondere wenn sensible Daten oder Ressourcen betroffen sind. Zudem erhöht sich durch diesen manuellen Ansatz die Einarbeitungszeit neuer Benutzer und das Onboarding verzögert sich.
 
-Dieses manuelle Vorgehen im Onboarding ist zeitaufwändig und fehleranfällig und erschwert eine schnelle Anpassung an Unternehmensanforderungen. 
+Dieses manuelle Vorgehen im Onboarding ist zeitaufwändig, fehleranfällig und erschwert eine schnelle Anpassung an Unternehmensanforderungen. 
 
 > (Chat GPT) [Quelle](https://chatgpt.com/share/6724ab57-b13c-800e-bfc9-da621fae374f)
 
@@ -142,7 +142,7 @@ Durch die Automatisierung dieser Schritte wird der gesamte Onboarding-Prozess be
 2. Lizenzzuweisung
 3. Gruppenzuweisung
 
-Durch diese Automatisierungen wird der manuelle Aufwand deutlich reduziert, und es entsteht ein strukturierter, effizienter Prozess, der weniger fehleranfällig ist und die Compliance-Anforderungen erfüllt.
+Durch diese Automatisierungen wird der manuelle Aufwand deutlich reduziert und es entsteht ein strukturierter, effizienter Prozess, der weniger fehleranfällig ist und die Compliance-Anforderungen erfüllt.
 
 > (Chat GPT) [Quelle](https://chatgpt.com/share/6724ab57-b13c-800e-bfc9-da621fae374f)
 
@@ -154,7 +154,7 @@ Durch diese Automatisierungen wird der manuelle Aufwand deutlich reduziert, und 
 
 Der aktuelle Onboarding-Prozess ist manuell und weist folgende Probleme auf:
 
-- Zeitaufwendig: Manuelle Abläufe wie Profilanlegung und Zugangserstellung führen zu Verzögerungen.
+- Zeitaufwändig: Manuelle Abläufe wie Profilanlegung und Zugangserstellung führen zu Verzögerungen.
 - Fehleranfälligkeit: Häufige manuelle Eingabefehler können Sicherheitsrisiken erhöhen.
 - Mangelnde Skalierbarkeit: Der Aufwand steigt linear mit der Anzahl der Neueinstellungen.
 
@@ -184,7 +184,7 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 
 #### Funktionale Systemgrenzen
 
-- User Offboardings/User changes: Der Prototyp deckt nur den Onboarding-Prozess neuer Mitarbeiter ab andere HR-Prozesse sind ausgeschlossen.
+- User Offboardings/User changes: Der Prototyp deckt nur den Onboarding-Prozess neuer Mitarbeiter ab, andere HR-Prozesse sind ausgeschlossen.
 - Firmendaten: Es werden keine Firmendaten verwendet, um den Datenschutz zu gewährleisten.
 - Berechtigungskonzept: In diesem Projekt wird kein Konzept erstellt, es wird sich an die vorhandenen vorgaben der Firma gehalten.
 
@@ -197,14 +197,12 @@ Die automatisierte Lösung soll den Onboarding-Prozess effizienter gestalten:
 
 # Planen
 
-Hier werde ich das ganze Projekt planen. Es wird ein Zeitplan erstellt, wann welche Tätigkeiten fällig sind und die Meilensteine genau beschrieben.
+Hier werde ich das ganze Projekt planen. Es wird ein Zeitplan erstellt, wann welche Tätigkeiten fällig sind und die Meilensteine sind genau beschrieben.
 
 ## Zeitplan
 ![Zeitplan](../Pictures/Zeitplan.png)
 
-Hier ist mein Grafischer Zeitplan. Im Notion habe ich jedoch die ganze Planung umgesetzt:
-
-Dies wäre der Link:
+Hier ist mein Grafischer Zeitplan. Im Notion habe ich jedoch die ganze Planung umgesetzt. Dies wäre der Link dazu:
 
 [Notion](https://ebony-pufferfish-d9f.notion.site/Semesterarbeit-2-113bfebe3525806c82d0e9af0481d359)
 
@@ -212,7 +210,7 @@ Dies wäre der Link:
 
 #### Einreichungsformular
 
-Das Einreichungsformular ist der erste formelle Schritt zur Dokumentation des Projekts. Hier werden alle wichtigen Informationen zum Projekt gesammelt, zum Beispiel Zielsetzung, Projektbeschreib, Risiken, Mittel und Methoden. Dieses Formular dient als Grundlage zur Projektgenehmigung und bietet den Projektbeteiligten eine klare Übersicht über die Ziele und Anforderungen.
+Das Einreichungsformular ist der erste, formelle Schritt zur Dokumentation des Projekts. Hier werden alle wichtigen Informationen zum Projekt gesammelt, zum Beispiel Zielsetzung, Projektbeschreib, Risiken, Mittel und Methoden. Dieses Formular dient als Grundlage zur Projektgenehmigung und bietet den Projektbeteiligten eine klare Übersicht über die Ziele und Anforderungen.
 
 #### Entscheidungsmatrix
 
@@ -220,7 +218,7 @@ Die Entscheidungsmatrix hilft bei der Auswahl der besten Vorgehensweise oder Lö
 
 #### Realisieren
 
-In der Realisierungsphase wird das Projekt in die Praxis umgesetzt. Hier beginnen die eigentlichen Arbeiten. In dieser Phase wird das Projekt schrittweise aufgebaut, und die vorherige Planung wird in konkrete Resultate umgesetzt.
+In der Realisierungsphase wird das Projekt in die Praxis umgesetzt. Hier beginnen die eigentlichen Arbeiten. In dieser Phase wird das Projekt schrittweise aufgebaut und die vorherige Planung wird in konkrete Resultate umgesetzt.
 
 #### Testen
 
@@ -236,7 +234,7 @@ Die Abgabe ist der formelle Abschluss des Projekts, bei dem alle Projektergebnis
 
 # Entscheiden
 
-Im Kapitel Entscheiden werden die Produkte die zur Auswahl stehen verglichen. Damit es Übersichtlich bleibt werden nur zwei Tools, welche wir im Unterricht angetroffen haben für den Vergleich verwendet. Dann gibt es noch eine Entscheidunsmatrix um das Gewinnertool herauszuheben. Zusätzlich wird beschrieben, wieso ich mit Azure Cloud und mit Python arbeite.
+Im Kapitel Entscheiden werden die Produkte die zur Auswahl stehen verglichen. Damit es Übersichtlich bleibt, werden nur zwei Tools, welche wir im Unterricht angetroffen haben, für den Vergleich verwendet. Anschliessend gibt es eine Entscheidunsmatrix um das Gewinnertool herauszuheben. Zusätzlich wird beschrieben, wieso ich mit Azure Cloud und mit Python arbeite.
 
 ## Produkte vergleichen
 
@@ -259,10 +257,10 @@ Im Kapitel Entscheiden werden die Produkte die zur Auswahl stehen verglichen. Da
 
 #### Vorteile
 
-1. Benutzerfreundlichkeit: Intuitive, grafische Oberfläche, die auch Anwendern ohne Programmierkenntnisse die Erstellung von Workflows ermöglicht.
+1. Benutzerfreundlichkeit: Intuitive, grafische Oberfläche, welche auch Anwendern ohne Programmierkenntnisse die Erstellung von Workflows ermöglicht.
 2. Nahtlose Microsoft-Integration: Perfekte Integration mit Microsoft 365 (Teams, SharePoint, Outlook, etc.), ideal für Unternehmen im Microsoft-Ökosystem.
 3. Umfangreiche Konnektoren: Hunderte vorgefertigte Integrationen für Microsoft- und Drittanbieter-Apps wie Salesforce, Google Services und viele mehr.
-4. Kosteneffizient für Basis-Automatisierungen: Für einfache Workflows und Unternehmen mit Microsoft-Abonnements oft eine kostengünstige Lösung.
+4. Kosteneffizient für Basis-Automatisierungen: Für einfache Workflows und Unternehmen mit Microsoft-Abonnements, oft eine kostengünstige Lösung.
 5. Cloud-basiert: Keine Notwendigkeit für lokale Installationen, was eine schnelle Implementierung ermöglicht.
 
 #### Nachteile
@@ -329,7 +327,7 @@ Mit dieser Gewichtung ist Camunda die bessere Wahl für Unternehmen, die komplex
 
 ## Wieso Azure Cloud?
 
-Ich verwende die Azure Cloud, da sie in unserer Firma als Standardlösung eingesetzt wird. Sie bietet uns eine zuverlässige, skalierbare Plattform für unsere geschäftlichen Anforderungen und ermöglicht die Integration moderner Technologien. Durch die zentrale Nutzung in der Firma profitieren wir von einer nahtlosen Zusammenarbeit und einer einheitlichen Infrastruktur, was unsere Effizienz und Produktivität deutlich steigert.
+Ich verwende die Azure Cloud, da diese in unserer Firma als Standardlösung eingesetzt wird. Sie bietet uns eine zuverlässige, skalierbare Plattform für unsere geschäftlichen Anforderungen und ermöglicht die Integration moderner Technologien. Durch die zentrale Nutzung in der Firma profitieren wir von einer nahtlosen Zusammenarbeit und einer einheitlichen Infrastruktur, was unsere Effizienz und Produktivität deutlich steigert.
 
 ## Wieso Python?
 

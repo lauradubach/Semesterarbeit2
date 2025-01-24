@@ -15,11 +15,11 @@ Das ganze wird nun auch im Dokumentationssystem der Firma dokumentiert. Wie man 
 
 ## Schulung Team
 
-Das ganze Support Team erhält täglich Onboardings. So muss dem Team gezeigt werden, wie genau Sie das Skript verwenden müssen. Dies kann am besten in einer kurzen Demo-Session demonstriert werden. Es wird gezeigt wie die Daten eingetragen werden und wie dann das Skript ausgeführt wird.
+Das ganze Support Team erhält täglich Onboardings. So muss dem Team gezeigt werden, wie Sie das Skript verwenden müssen. Dies kann am besten in einer kurzen Demo-Session aufgezeigt werden. Es wird erläutert, wie die Daten eingetragen werden und wie das Skript anschliessend ausgeführt wird.
 
 ## Alter Prozess Ablösen
 
-Wenn die Lösung einwandfrei funktioniert, kann nun der alte Prozess abgelöst werden und der neue Prozess wird von allen Teammitgliedern verwendet. Somit wäre das Projekt erfolgreich abgeschlossen und kann wenn nötig immer wieder mit neuen Funktionen erweitert werden.
+Wenn die Lösung einwandfrei funktioniert, kann nun der alte Prozess abgelöst werden und der neue Prozess wird von allen Teammitgliedern verwendet. Somit wäre das Projekt erfolgreich abgeschlossen und kann, wenn nötig, immer wieder mit neuen Funktionen erweitert werden.
 
 > Back [Page](https://github.com/lauradubach/Semesterarbeit2/blob/main/Sites/Teil%203%20Realisierung.md)
 >

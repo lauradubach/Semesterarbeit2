@@ -1,6 +1,6 @@
 # Teil 1 Initialisierung
 
-In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hintergrund und die Relevanz des Themas. Sie definiert das Ziel der Arbeit und formuliert die zentralen Fragen. Zudem gibt die Intialisierung einen kurzen Überblick über den Aufbau der Arbeit, um eine klare Orientierung zu bieten.
+In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hintergrund und die Relevanz des Themas. Sie definiert das Ziel der Arbeit und formuliert die zentralen Fragen. Zudem gibt die Intialisierung einen kurzen Überblick über den Aufbau der Arbeit um eine klare Orientierung zu bieten.
 
 - [Teil 1 Initialisierung](#teil-1-initialisierung)
 - [Versionenverzeichniss](#versionenverzeichniss)
@@ -29,15 +29,15 @@ In diesem Kapitel wird ins Thema der Arbeit eingeführt. Es beschreibt den Hinte
 | Version | Datum  | Autor | Bemerkung | 
 | ------- | ------ | ----  | --------- |
 | 1.0 | 24.10.2024 | Laura Dubach | Zeitplan und Notion erstellen |
-| 1.1 | 30.10.2024 | Laura Dubach | Dokument erstellt und den Aufbau gestartet. |
+| 1.1 | 30.10.2024 | Laura Dubach | Dokument erstellt und den Aufbau gestartet |
 | 1.2 | 01.11.2024 | Laura Dubach | Start dokumentation Kapitel Initialisierung  |
-| 1.3 | 06.11.2024 | Laura Dubach | Seusag und Ist- und Soll Zustand dokumentieren |
+| 1.3 | 06.11.2024 | Laura Dubach | Seusag sowie Ist- und Soll Zustand dokumentieren |
 | 1.4 | 13.11.2024 | Laura Dubach | Tool vergleich & Entscheidungsmatrix |
 | 1.5 | 14.11.2024 | Laura Dubach | Implemetierungsplan |
 | 1.6 | 27.11.2024 | Laura Dubach | Besprechungsnotiz schreiben |
 | 1.7 | 03.12.2024 | Laura Dubach | Start Python Skript |
 | 1.8 | 11.12.2024 | Laura Dubach | Seusag überarbeiten |
-| 1.9 | 18.12.2024 | Laura Dubach | Umsetzung Skript beschreiben, Troubleshooting beschreiben |
+| 1.9 | 18.12.2024 | Laura Dubach | Umsetzung Skript und Troubleshooting beschreiben |
 | 2.0 | 23.12.2024 | Laura Dubach | Fallbacksolution & Tests dokumentieren |
 | 2.1 | 30.12.2024 | Laura Dubach | Dokumentation verbessern (Aufbau, Struktur, Rechtschreibung) |
 | 2.2 | 13.01.2025 | Laura Dubach | Besprechungsnotiz 2 dokumentieren |
@@ -93,7 +93,7 @@ Das Ergebnis dieser Arbeit soll eine wiederverwendbare und skalierbare Lösung s
 
 ## Methode IPERKA
 
-Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern auch lernen zu können. IPERKA habe ich gewählt, da ich schon gute Erfahrungen in verschiedenen Projekten damit gemacht habe. Ich fühle mich sicher damit zu arbeiten, damit war es für mich die beste Projektmethode für diese Semesterarbeit.
+Dies ist eine Sechs-Schritte-Methode, welche man für die Umsetzung eines Projektes verwendet. Sie hilft dabei, ein Projekt von Grund auf gut zu planen und zu verstehen. Man soll jeden Schritt genau durchführen, um jegliche Probleme umgehen zu können. Zum Schluss der Methode wird auch verlangt, dass man das Projekt reflektiert, um aus allfälligen Fehlern lernen zu können. IPERKA habe ich gewählt, da ich schon gute Erfahrungen in verschiedenen Projekten damit gemacht habe. Ich fühle mich sicher damit zu arbeiten, damit war es für mich die beste Projektmethode für diese Semesterarbeit.
 
 > (Bexio 2020) [Quelle](https://www.bexio.com/de-CH/blog/view/iperka-methode)
 
@@ -130,7 +130,7 @@ E-Mail: armin.doerzbach@tbz.ch
 
 # Datensicherung
 
-Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem OneDrive abspeichern. Zusätzlich werde ich die Daten auf einen USB-Stick abspeichern, damit ich im Worstcase Szenario immer noch ein Backup besitze. 
+Damit keine Daten verloren gehen, werde ich alle Dokumente auf meinem OneDrive abspeichern. Zusätzlich werde ich die Daten auf einen USB-Stick abspeichern, damit ich im Worstcase Szenario ein Backup besitze. 
 
 # Besprechungsprotokoll
 
@@ -142,13 +142,13 @@ Damit keine Daten verloren gehen können, werde ich alle Dokumente auf meinem On
 
 ### Besprechungsnotiz
 
-Wir haben uns über einen Teamscall getroffen. Ich hatte 2 Fragen zu meinem Projekt. Die erste war, ob ich den Aufbau von meiner 1ten Arbeit übernehmen darf. Philipp meinte, dass genau das auch das Ziel ist und wenn er vorher nichts bemängelt hat, ich das so machen darf. Das Ziel ist es ja auch, dass wir eine perfekte Vorlage für unsere Arbeiten haben und so den Aufwand sparen können.
+Wir haben uns über einen Teamscall getroffen. Ich hatte 2 Fragen zu meinem Projekt. Die erste war, ob ich den Aufbau von meiner 1ten Arbeit übernehmen darf. Philipp meinte, dass genau dies das Ziel sei und wenn er vorher nichts bemängelt habe, ich das so machen darf. Das Ziel ist ja auch, dass wir eine perfekte Vorlage für unsere Arbeiten haben und somit Aufwand einsparen.
 
 Danach wollte ich, dass er sich mein Seusag anschaut, da ich mir unsicher war, ob dies so gewünscht wird. Er hat mir folgende Änderungsvorschläge gegeben:
 
-- Der Punkt "Hilfsmittel" ist zu allgemein ich sollte ein anderes Wort verwenden.
-- Was nicht im Projekt integriert ist, soll am besten ausserhalb der Bubble gesetzt werden, sonst ist es zu verwirrend.
-- Die einzelnen Punkte weisen momentan noch keine verbindung auf. Dies sollte ich noch anpassen.
+- Der Punkt "Hilfsmittel" ist zu allgemein und ich sollte ein anderes Wort verwenden.
+- Was nicht im Projekt integriert ist, soll ausserhalb der Bubble gesetzt werden, sonst sei es zu verwirrend.
+- Die einzelnen Punkte weisen momentan noch keine Verbindung auf, dies sollte angepasst werden.
 
 Das Gespräch war gut und sehr informiativ. Alle meine Fragen konnten beantwortet werden, so kann ich nun weiter an meiner Arbeit schreiben.
 
@@ -162,10 +162,10 @@ Das Gespräch war gut und sehr informiativ. Alle meine Fragen konnten beantworte
 
 Auch dieses Gespräch wurde über einen Teamscall durchgeführt. Folgende Fragen habe ich gestellt:
 
-1. Die Error Meldungen habe ich bereits beschrieben inkulsive lösungen, soll das Skript auch bechrieben werden (wie es erstellt wurde usw)?
+1. Die Error Meldungen habe ich bereits beschrieben, inkulsive Lösungen, soll das Skript auch bechrieben werden (wie es erstellt wurde usw)?
 1. Fallbacksolution macht in meinem Projekt wenig Sinn, da es auf einem Demo Tenant umgesetzt wurde. Soll ich einfach in ein Paar Worten beschreiben, wie man vorgehen sollte, falls das Skript nicht mehr läuft?
 
-Bei der ersten Frage meinte er, dass ich nicht beschreiben soll, wie ich das Skript geschrieben habe und was, was umsetzt. Das würde viel zu lange gehen. Bei der zweiten Frage meinte er auch, dass die Fallbacksolution in diesem Projekt wenig Sinn ergibt, es reicht wenn ich erkläre wie man vorgeht, wenn das Skript nicht funktioniert.
+Bei der ersten Frage meinte er, dass ich nicht beschreiben soll, wie ich das Skript geschrieben habe und was, was umsetzt. Das würde viel zu lange dauern. Bei der zweiten Frage meinte er auch, dass die Fallbacksolution in diesem Projekt wenig Sinn ergibt, es würde reichen, wenn ich erkläre wie man vorgeht, wenn das Skript nicht funktioniert.
 
 Danach hatte Philipp noch eine Idee, wie ich meine Dokumentation verbessern kann. Meine Titel sind zu wenig genau.
 Er meinte die "Einleitung" könnte man zum Beispiel "Initiialisierung" nennen. Der Titel Vorbereitung ist zu wenig aussagend. Hier würde besser passen "Konseption". Realisierung passt, er meinte aber, ich soll vor dem Abschnitt "Abschluss" einen weiteren Abschnitt machen, wo beschrieben wird, wie das Projekt ins Busines eingeführt wird. Zum Beispiel wie die alten prozesse abgelöst werden und wie das Team geschult wird. Dies aber nur Theoretisch.
